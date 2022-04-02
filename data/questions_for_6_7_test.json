@@ -1,0 +1,974 @@
+{
+    "check_xpath_img": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+    "check_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+    "array_xp": "//form/div/div[1]/div[2]/div/div[2]/div/span[",
+    "answer_xp": "//form/div/div[1]/div[2]/div/input[",
+    "string_xpath": "//form/div/div[1]/div[2]/div/div[1]",
+    "answer_inp_xp": "//form/div/div[1]/div[2]/div/div[2]/span/input",
+    "link_xp": "//form/div/div[1]/div[1]",
+    "type1": {
+        "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+        "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+        "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "text_xp2": "]/div/div/p",
+        "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "answer_xp2": "]/input",
+        "text_chb_xp1": "//form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "text_chb_xp2": "]/div/div",
+        "answer_chb_xp1": "//form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "answer_chb_xp2": "]/input[2]",
+        "text_sel_xp1": "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "text_sel_xp2": "]/td[1]",
+        "answer_sel_xp1": "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "answer_sel_xp2": "]/td[2]/select/option[",
+        "questions": [
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/ul/li[1]",
+                    "first_line": "КПФ цепи",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test6_7\\0.png"
+                },
+                "format" : "checkbox",
+                "text_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_chb_xp2" : "]/input[2]",
+                "answer": [
+                    "picts_test6_7\\ind1.png",
+                    "picts_test6_7\\ind2.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/ul/li[1]",
+                    "first_line": "КПФ цепи",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test6_7\\1.png"
+                },
+                "format" : "checkbox",
+                "text_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_chb_xp2" : "]/input[2]",
+                "answer": [
+                    "picts_test6_7\\ind26.png",
+                    "picts_test6_7\\ind27.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "На входе цепи действует напряжение u1(t).  Определить значение u2(t)  в вольтах при",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img[2]",
+                    "second_line": "picts_test6_7\\16.png"
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "system_of_equations": {
+                    "var": "T",
+                    "conditions": ["T <= 1.9", "T >= 2"]
+                },
+                "answer": ["индивидуалочка",
+                        "Otvet=2*math.exp((-R*1000/L)*T*0.001)",
+                        "Otvet=(2*math.exp((-R*1000/L)*T*0.001))+(2*math.exp((-R*1000/L)*((T*0.001)-0.002)))",
+                        {
+                            "T" : 14,
+                            "R" : 19,
+                            "L" : 23
+                        }],
+                "type_variable": "float"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "На входе цепи действует напряжение u1(t).  Определить значение u2(t)  в вольтах при",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img[2]",
+                    "second_line": "picts_test6_7\\17.png"
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "system_of_equations": {
+                    "var": "T",
+                    "conditions": ["T <= 1.9", "T <= 3.9", "T <= 5.9", "T >= 6"]
+                },
+                "answer": ["индивидуалочка",
+                        "Otvet=0",
+                        "Otvet=4-(4*math.exp((-1/(R*C*0.001))*(T*0.001-0.002)))",
+                        "Otvet=(4-(4*math.exp((-1/(R*C*0.001))*(T*0.001-0.002))))-(2-(2*math.exp((-1/(R*C*0.001))*(T*0.001-0.004))))",
+                        "Otvet=(4-(4*(math.exp((-1/(R*C*0.001))*((T*0.001)-0.002)))))-(2-(2*(math.exp((-1/(R*C*0.001))*((T*0.001)-0.004)))))-(2-(2*(math.exp((-1/(R*C*0.001))*((T*0.001)-0.006)))))",
+                        {
+                            "T" : 14,
+                            "R" : 19,
+                            "C" : 23
+                        }],
+                "type_variable": "float"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/ul/li[1]",
+                    "first_line": "АЧХ цепи",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test6_7\\1.png"
+                },
+                "format" : "checkbox",
+                "text_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_chb_xp2" : "]/input[2]",
+                "answer": [
+                    "picts_test6_7\\ind3.png",
+                    "picts_test6_7\\ind4.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/ul/li[1]",
+                    "first_line": "АЧХ цепи",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test6_7\\20.png"
+                },
+                "format" : "checkbox",
+                "text_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_chb_xp2" : "]/input[2]",
+                "answer": [
+                    "picts_test6_7\\ind24.png",
+                    "picts_test6_7\\ind25.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/ul/li[1]",
+                    "first_line": "АЧХ цепи",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test6_7\\2.png"
+                },
+                "format" : "checkbox",
+                "text_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_chb_xp2" : "]/input[2]",
+                "answer": [
+                    "picts_test6_7\\ind5.png",
+                    "picts_test6_7\\ind6.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/ul/li[1]",
+                    "first_line": "АЧХ цепи",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test6_7\\3.png"
+                },
+                "format" : "checkbox",
+                "text_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_chb_xp2" : "]/input[2]",
+                "answer": [
+                    "picts_test6_7\\ind7.png",
+                    "picts_test6_7\\ind8.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Определите АЧХ цепи",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test6_7\\10.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test6_7\\ind11.png"
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Определите АЧХ цепи",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test6_7\\11.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test6_7\\ind12.png"
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/ul/li[1]",
+                    "first_line": "КПФ цепи",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test6_7\\4.png"
+                },
+                "format" : "checkbox",
+                "text_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_chb_xp2" : "]/input[2]",
+                "answer": [
+                    "picts_test6_7\\ind9.png",
+                    "picts_test6_7\\ind10.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Определите АЧХ цепи",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test6_7\\12.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test6_7\\ind11.png"
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Определить амплитудный спектр сигнала.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test6_7\\15.png"
+                },
+                "format" : "checkbox",
+                "text_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "//div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_chb_xp2" : "]/input[2]",
+                "answer" : [
+                    "picts_test6_7\\ind16.png",
+                    "picts_test6_7\\ind17.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите временные характеристики цепи, если R = 5 кОм, С = 100 мкФ.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format" : "checkbox",
+                "text_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_chb_xp2" : "]/input[2]",
+                "answer": [
+                    "picts_test6_7\\ind22.png",
+                    "picts_test6_7\\ind23.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите временные характеристики цепи, если R = 2 Ом, L = 2 Гн.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format" : "checkbox",
+                "text_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_chb_xp2" : "]/input[2]",
+                "answer": [
+                    "picts_test6_7\\ind31.png",
+                    "picts_test6_7\\ind32.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Определите АЧХ цепи",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test6_7\\13.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test6_7\\ind13.png"
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "      \nНа входе цепи действует напряжение u1(t).  Определить значение u2(t)  в вольтах при t = 1,1 мс, если R = 2,6 кОм, L = 9,4 Гн.\nОтвет представить с точностью до сотых, десятичный разделитель - запятая.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "answer": [
+                    1
+                ],
+                "type_variable": "int"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Определить амплитудный спектр сигнала.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test6_7\\18.png"
+                },
+                "format" : "checkbox",
+                "text_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "//div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_chb_xp2" : "]/input[2]",
+                "answer" : [
+                    "picts_test6_7\\ind20.png",
+                    "picts_test6_7\\ind21.png"
+                ]
+            }
+        ]
+    },
+    "type2": {
+        "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+        "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+        "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "text_xp2": "]/div/div/p",
+        "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "answer_xp2": "]/input",
+        "text_chb_xp1": "//form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "text_chb_xp2": "]/div/div",
+        "answer_chb_xp1": "//form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "answer_chb_xp2": "]/input[2]",
+        "text_sel_xp1": "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "text_sel_xp2": "]/td[1]",
+        "answer_sel_xp1": "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "answer_sel_xp2": "]/td[2]/select/option[",
+        "questions": [
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Дан амплитудный спектр периодической последовательности прямоугольных импульсов.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "10",  "50",  "5", "5"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/ul/li[1]",
+                    "first_line": "КПФ цепи",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img[1]",
+                    "second_line": "picts_test6_7\\22.png"
+                },
+                "format" : "checkbox",
+                "text_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_chb_xp2" : "]/input[2]",
+                "answer": [
+                    "picts_test6_7\\ind29.png",
+                    "picts_test6_7\\ind30.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p",
+                    "first_line": "Дельта-функция удовлетворяет условию",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test6_7\\ind31.gif"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Переходная характеристика - это",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "оклик на воздействие единичной функции"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p",
+                    "first_line": "Связь операторной передаточной и комплексной передаточной функций цепи:",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test6_7\\ind28.png"
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Емкостное сопротивление с увеличением номера гармоники:",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "уменьшается"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Дельта-функция имеет",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "конечную площадь и бесконечную амплитуду"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Импульсная характеристика - это",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "отклик на воздействии δ-функции"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Определить значение модуля спектральной плотности сигнала в В•с на частоте",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "type_variable": "int",
+                "answer": "skip"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Для периодической последовательности прямоугольных импульсов tи = 2 мкс, T = 5 мкс, Um = 2 В.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "250",  "200",  "400", "1000",  "200",  "400", "500",  "100",  "200", "500",  "400",  "800"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите верные утверждения",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "checkbox",
+                "text_chb_xp1": "default",
+                "answer": [
+                    "Чем меньше длительность сигнала, тем шире его спектр",
+                    "Если сигнал задержан на время t0, то спектральная плотность амплитуд такого сигнала не изменяется, а изменяется лишь его спектральная плотность фаз   ",
+                    "Энергия сигнала во временной области равна энергии сигнала в частотной области",
+                    "При умножении сигнала на гармоническое колебание его спектр смещается по шкале частот на величину, равную частоте гармонического колебания",
+                    "Интегрирование сигнала ведет к уменьшению высокочастотных составляющих его спектра",
+                    "Дифференцирование сигнала ведет к увеличению высокочастотных составляющих его спектра"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Интеграл свертки используется для определения напряжения на выходе y(t) при",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "произвольном входном сигнале x(t) и известной функции h(t)"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Для каждой из схем определите значение АЧХ на заданных частотах.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img[1]",
+                    "second_line": "picts_test6_7\\5.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "1",  "0.5",  "0.67", "1",  "1",  "0.5", "0.5",  "0.67"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Дан спектр сигнала.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "4",  "8",  "1", "*6280t",  "-60",  "6", "2","*6280t",  "30",  "0", "3",  "*6280t",  "0", "2","4",  "*6280t",  "90", "1",  "5",  "*6280t", "60"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Какими параметрами определяется гармонический сигнал",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "амплитудой А, частотой ω и начальной фазой φ"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Для заданной КПФ определите значение ФЧХ при ω=∞",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "type_variable": "int",
+                "answer": "0"
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line": "Дан сигнал",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test6_7\\14.png"
+                },
+                "format" : "checkbox",
+                "text_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "//div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_chb_xp2" : "]/input[2]",
+                "answer" : [
+                    "picts_test6_7\\ind14.png",
+                    "picts_test6_7\\ind15.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Запишите импульсную характеристику цепи",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test6_7\\8.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "0.5",  "-0.25R/L",  "-0.5R/L", "0",  "-2R/L",  "0.5", "0.25R/L",  "-0.5R/L",  "1",  "-R/L",  "-2R/L"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Запишите импульсную характеристику цепи",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test6_7\\23.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "0.5",  "-1/(4RC)",  "-1/(2RC)", "1",  "-1/(RC)",  "-1/(0.5RC)", "0",  "-1/(0.5RC)",  "0.5",  "1/(4RC)",  "-1/(2RC)"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Запишите переходную характеристику цепи",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test6_7\\9.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "0",  "0.5",  "-0.5R/L", "0.5",  "-0.5",  "-2R/L", "1",  "-0.5",  "-0.5R/L",  "0.5",  "0.5",  "-2R/L"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Запишите переходную характеристику цепи",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test6_7\\19.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "0",  "0.5",  "-1/(2RC)", "0.5",  "0.5",  "-1/(0.5RC)", "0.5",  "-0.5",  "-1/(0.5RC)",  "1",  "-0.5",  "-1/(2RC)"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Для каждого из сигналов  определить:",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img[1]",
+                    "second_line": "picts_test6_7\\7.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "3",  "3",  "0", "4",  "2",  "0", "-4",  "-2",  "666",  "-666",  "0",  "0",  "0",  "0"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Для каждого из сигналов  определить:",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img[1]",
+                    "second_line": "picts_test6_7\\21.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "3",  "3",  "2", "4",  "2",  "0", "-2",  "0",  "0",  "0",  "-1000",  "-2000",  "0",  "0"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Определить значение модуля спектральной плотности сигнала в В•с  на частоте",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "need_exact_value" : [
+                    {
+                        "var" : "T",
+                        "idx" : 0
+                    }
+                ],
+                "answer" : ["индивидуалочка",
+                            "Otvet= abs(A*(1/(((1j*2*math.pi*f))+T)))",
+                            {
+                                "f" : 12,
+                                "A" : 16,
+                                "T" : 18
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Ряд Фурье справедлив для",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "периодического сигнала "
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p",
+                    "first_line": "Выбрать графики, соответствующие одностороннему и двухстороннему спектру фаз",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format" : "checkbox",
+                "text_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "//div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_chb_xp2" : "]/input[2]",
+                "answer" : [
+                    "picts_test6_7\\ind18.png",
+                    "picts_test6_7\\ind19.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p",
+                    "first_line": "Выберите КПФ цепи, не вносящей амплитудных искажений",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format" : "checkbox",
+                "text_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "//div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_chb_xp2" : "]/input[2]",
+                "answer" : [
+                    "picts_test6_7\\ind33.png",
+                    "picts_test6_7\\ind34.png",
+                    "picts_test6_7\\ind35.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Интеграл Дюамеля используется для определения напряжения на выходе y(t) при",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "произвольном входном сигнале x(t) и известной функции g(t)"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Линейная ФЧХ цепи означает ",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "одинаковое время задержки для всех частотных составляющих сигнала"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Для заданной КПФ определите значение ФЧХ при ω=0",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "type_variable": "int",
+                "answer": "0"
+                
+            },
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Выберите спектр, соответствующий каждому из сигналов",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+                "exact_quest" : true,
+                "format" : "select",
+                "quantity_ans" : 6,
+                "answer" : [
+                    {
+                        "line" : "Аналоговый периодический сигнал",
+                        "ans" : "дискретный спектр"
+                    },
+                    {
+                        "line" : "Аналоговый непериодический сигнал",
+                        "ans" : "сплошной спектр"
+                    }
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Если для 1-й гармоники индуктивное сопротивление катушки равно 10 Ом, то для 5-ой гармоники оно равно:",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "50 Ом"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Для заданной КПФ определите значение АЧХ при ω=∞",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "type_variable": "float",
+                "need_exact_value" : [
+                    {
+                        "var" : "L1",
+                        "idx" : 1
+                    },
+                    {
+                        "var" : "L2",
+                        "idx" : 1
+                    }
+                ],
+                "answer" : ["индивидуалочка",
+                            "Otvet=L1/(L1+L2)",
+                            {
+                                "L1" : 11,
+                                "L2" : 12
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Для заданной КПФ определите значение АЧХ при ω=0",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "type_variable": "float",
+                "need_exact_value" : [
+                    {
+                        "var" : "R1",
+                        "idx" : 1
+                    },
+                    {
+                        "var" : "R2",
+                        "idx" : 1
+                    }
+                ],
+                "answer" : ["индивидуалочка",
+                            "Otvet=R1/(R1+R2)",
+                            {
+                                "R1" : 9,
+                                "R2" : 10
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Для каждой из схем определите значение АЧХ на заданных частотах.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img[1]",
+                    "second_line": "picts_test6_7\\6.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "1",  "0.33",  "0.5", "0.25",  "0.5",  "0", "0",  "0.33"
+                ]
+            },
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Дайте определения",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+                "exact_quest" : true,
+                "format" : "select",
+                "quantity_ans" : 9,
+                "answer" : [
+                    {
+                        "line" : "Комплексная передаточная функция по напряжению - это",
+                        "ans" : "отношение комплексного выходного напряжения к комплексному входному напряжению"
+                    },
+                    {
+                        "line" : "Комплексная передаточное сопротивление - это",
+                        "ans" : "отношение комплексного выходного напряжения к комплексному входному току"
+                    },
+                    {
+                        "line" : "Комплексная передаточная проводимость - это",
+                        "ans" : "отношение комплексного выходного тока к комплексному входному напряжению"
+                    },
+                    {
+                        "line" : "Комплексная передаточная функция по току - это",
+                        "ans" : "отношение комплексного выходного тока к комплексному входному току"
+                    }
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определить скважность периодического сигнала, если t",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "answer" : ["индивидуалочка",
+                            "Otvet=T/tu",
+                            {
+                                "tu" : 7,
+                                "T" : 11
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определить постоянную составляющую спектра периодической последовательности",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "answer" : ["индивидуалочка",
+                            "Otvet=(t/T)*Um",
+                            {
+                                "t" : 8,
+                                "T" : 12,
+                                "Um" : 16
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определить значение частоты в кГц на которой находится гармоника An",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "answer" : ["индивидуалочка",
+                            "Otvet=round((1/(t*0.000001))*N*(0.001))",
+                            {
+                                "N" : 13,
+                                "t" : 18
+                            }]
+            }
+        ]
+    }
+}

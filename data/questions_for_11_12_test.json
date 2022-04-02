@@ -1,0 +1,1600 @@
+{
+    "check_xpath_img": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+    "check_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+    "array_xp": "//form/div/div[1]/div[2]/div/div[2]/div/span[",
+    "answer_xp": "//form/div/div[1]/div[2]/div/input[",
+    "string_xpath": "//form/div/div[1]/div[2]/div/div[1]",
+    "answer_inp_xp": "//form/div/div[1]/div[2]/div/div[2]/span/input",
+    "link_xp": "//form/div/div[1]/div[1]",
+    "type1": {
+        "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+        "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+        "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "text_xp2": "]/div/div/p",
+        "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "answer_xp2": "]/input",
+        "text_chb_xp1": "//form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "text_chb_xp2": "]/div/div",
+        "answer_chb_xp1": "//form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "answer_chb_xp2": "]/input[2]",
+        "text_sel_xp1": "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "text_sel_xp2": "]/td[1]",
+        "answer_sel_xp1": "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "answer_sel_xp2": "]/td[2]/select/option[",
+        "questions": [
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Выберите условие стационарного режима автогенератора",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test11_12\\22.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test11_12\\ind17.png"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Выберите условие стационарного режима автогенератора",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test11_12\\23.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test11_12\\ind18.png"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Определить частоту генерации автогенератора в кГц,  если",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test11_12\\22.png"
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "need_exact_value" : [
+                    {
+                        "var" : "R1",
+                        "idx" : 1
+                    },
+                    {
+                        "var" : "R2",
+                        "idx" : 1
+                    },
+                    {
+                        "var" : "C1",
+                        "idx" : 1
+                    },
+                    {
+                        "var" : "C2",
+                        "idx" : 1
+                    }
+                ],
+                "answer" : ["индивидуалочка",
+                            "Otvet= 1/(math.sqrt(R1*R2*C1*C2*(10**(-12)))*2*math.pi*1000)",
+                            {
+                                "R1" : 9,
+                                "R2" : 10,
+                                "C1" : 11,
+                                "C2" : 12
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Определить частоту генерации автогенератора в кГц,  если",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test11_12\\23.png"
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "need_exact_value" : [
+                    {
+                        "var" : "R",
+                        "idx" : 0
+                    },
+                    {
+                        "var" : "C",
+                        "idx" : 0
+                    }
+                ],
+                "answer" : ["индивидуалочка",
+                            "Otvet=(math.sqrt(6))/(R*C*2*(math.pi)*0.001)",
+                            {
+                                "R" : 7,
+                                "C" : 10
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Определить частоту генерации автогенератора в кГц,  если",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test11_12\\24.png"
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "need_exact_value" : [
+                    {
+                        "var" : "R",
+                        "idx" : 0
+                    },
+                    {
+                        "var" : "C",
+                        "idx" : 0
+                    }
+                ],
+                "answer" : ["индивидуалочка",
+                            "Otvet=1/((math.sqrt(6))*R*C*2*(math.pi)*0.001)",
+                            {
+                                "R" : 7,
+                                "C" : 10
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Выберите условие стационарного режима автогенератора",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test11_12\\24.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test11_12\\ind19.png"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "first_line": "Определить частоту генерации автогенератора в кГц,  если",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test11_12\\25.png"
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "need_exact_value" : [
+                    {
+                        "var" : "L",
+                        "idx" : 0
+                    },
+                    {
+                        "var" : "C",
+                        "idx" : 0
+                    }
+                ],
+                "answer" : ["индивидуалочка",
+                            "Otvet= 1/(math.sqrt(L*C*(10**(-12)))*2*math.pi*1000)",
+                            {
+                                "L" : 7,
+                                "C" : 9
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "first_line": "Определить значение емкости колебательного контура в мкФ,  если ",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "need_exact_value" : [
+                    {
+                        "var" : "w",
+                        "idx" : 1
+                    },
+                    {
+                        "var" : "L",
+                        "idx" : 0
+                    }
+                ],
+                "answer" : ["индивидуалочка",
+                            "Otvet=(10**6)/(((1000*w)**2)*L*0.001)",
+                            {
+                                "w" : 12,
+                                "L" : 14
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Выберите условие стационарного режима автогенератора",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test11_12\\25.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test11_12\\ind20.png"
+            }
+        ]
+    },
+    "type2": {
+        "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+        "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+        "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "text_xp2": "]/div/div/p",
+        "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "answer_xp2": "]/input",
+        "text_chb_xp1": "//form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "text_chb_xp2": "]/div/div",
+        "answer_chb_xp1": "//form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "answer_chb_xp2": "]/input[2]",
+        "text_sel_xp1": "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "text_sel_xp2": "]/td[1]",
+        "answer_sel_xp1": "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "answer_sel_xp2": "]/td[2]/select/option[",
+        "questions": [
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Линейная система устойчива, если ",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "свободные колебания в ней с течением времени затухают"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите АЧХ цепи на частоте f=",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test11_12\\5.png"
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "answer" : ["индивидуалочка",
+                            "Otvet=1/(2*math.pi*f*R*C*(10**(-6)))",
+                            {
+                                "f" : 6,
+                                "R" : 10,
+                                "C" : 13
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите напряжение на выходе сумматора, если",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test11_12\\9.png"
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "answer" : ["индивидуалочка",
+                            "Otvet= ((-u1*R)/R1)+u2*(R3/(R2+R3))*(1+(R/R1))",
+                            {
+                                "R1" : 7,
+                                "R2" : 10,
+                                "R3" : 13,
+                                "R" : 16,
+                                "u1" : 19,
+                                "u2" : 22
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите АЧХ цепи на частоте f=",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test11_12\\6.png"
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "answer" : ["индивидуалочка",
+                            "Otvet=2*math.pi*f*R*C*0.001",
+                            {
+                                "f" : 6,
+                                "R" : 10,
+                                "C" : 13
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите напряжение на выходе сумматора, если",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test11_12\\18.png"
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "need_exact_value" : [
+                    {
+                        "var" : "A",
+                        "idx" : 0
+                    },
+                    {
+                        "var" : "w",
+                        "idx" : 1
+                    }
+                ],
+                "answer" : ["индивидуалочка",
+                            "Otvet=A*math.sin(w*T*0.001)*(1+(R/R1))",
+                            {
+                                "R1" : 7,
+                                "R" : 10,
+                                "A" : 13,
+                                "w" : 13,
+                                "T" : 19
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите устойчивость цепи по годографу петлевого усиления.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img[1]",
+                    "second_line": "picts_test11_12\\10.png"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "неустойчивая", "устойчивая", "неустойчивая", "неустойчивая"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line": "Определите напряжение на выходе сумматора, если",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test11_12\\20.png",
+                    "missing_xp": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "missing": "в момент времени"
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "answer" : ["индивидуалочка",
+                            "Otvet=((-u1*R)/R1)+u2*(1+(R/R1))",
+                            {
+                                "R1" : 7,
+                                "R" : 10,
+                                "u1" : 13,
+                                "u2" : 16
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определены нули и полюсы различных цепей. Устойчивы ли данные цепи?",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img[1]",
+                    "second_line": "picts_test11_12\\13.png"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "устойчивая", "неустойчивая", "устойчивая", "неустойчивая"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "На каком рисунке представлена схема неинвертирующего усилителя?",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test11_12\\ind1.png"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Входное сопротивление неинвертирующего усилителя на ОУ",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "бесконечно велико"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите устойчивость цепи по годографу петлевого усиления.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img[1]",
+                    "second_line": "picts_test11_12\\11.png"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "устойчивая", "устойчивая", "устойчивая", "устойчивая"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "На каком рисунке представлена схема инвертирующего усилителя?",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test11_12\\ind2.png"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите вид обратной связи",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "select",
+                "quantity_ans" : 6,
+				"answer" : [
+					{
+						"line" : "Если фаза входного напряжения противоположна фазе напряжения обратной связи, то обратная связь называется",
+						"ans" : "отрицательной"
+					},
+					{
+						"line" : "Если фаза входного напряжения совпадает с фазой напряжения обратной связи, то обратная связь называется",
+						"ans" : "положительной"
+					}
+				]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Зависимый источник, обладающий следующими характеристиками, называется:",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "select",
+                "quantity_ans" : 5,
+				"answer" : [
+					{
+						"line" : "входное сопротивление стремится к нулю, выходное сопротивление стремится к нулю",
+						"ans" : "источник напряжения, управляемый током"
+					},
+					{
+						"line" : "входное сопротивление стремится к бесконечности, выходное сопротивление стремится к бесконечности",
+						"ans" : "источник тока, управляемый напряжением"
+					},
+                    {
+						"line" : "входное сопротивление стремится к нулю, выходное сопротивление стремится к бесконечности",
+						"ans" : "источник тока, управляемый током"
+					},
+					{
+						"line" : "входное сопротивление стремится к бесконечности, выходное сопротивление стремится к нулю",
+						"ans" : "источник напряжения, управляемый напряжением"
+					}
+				]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]",
+                    "first_line": "Определите передаточную функцию цепи в операторной форме.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "select",
+                "text_sel_xp1": "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+                "text_sel_xp2": "]/td[1]/p/img",
+                "answer_sel_xp1": "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+                "answer_sel_xp2": "]/td[2]/select/option[",
+                "quantity_ans": 7,
+                "answer": [
+					{
+						"line" : "picts_test11_12\\ind3.png",
+						"ans" : "-R/(R1+pL)"
+					},
+					{
+						"line" : "picts_test11_12\\ind4.png",
+						"ans" : "-(R+pL)/R1"
+					},
+                    {
+						"line" : "picts_test11_12\\ind5.png",
+						"ans" : "-(1+pCR)/pCR1"
+					},
+					{
+						"line" : "picts_test11_12\\ind6.png",
+						"ans" : "-pCR/(1+pCR1)"
+					}
+				]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите размер матрицы Раусса-Гурвица для проверки устойчивости системы с передаточной функцией",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "4х4"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]",
+                    "first_line": "В каком случае свободная составляющая переходного процесса соответствует устойчивой цепи?",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format" : "checkbox",
+                "text_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_chb_xp2" : "]/input[2]",
+                "answer": [
+                    "picts_test11_12\\ind7.png",
+                    "picts_test11_12\\ind8.png",
+                    "picts_test11_12\\ind9.png",
+                    "picts_test11_12\\ind10.png",
+                    "picts_test11_12\\ind11.png",
+                    "picts_test11_12\\ind12.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определить добротность полюса p=",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "need_exact_value" : [
+                    {
+                        "var" : "A",
+                        "idx" : 0
+                    },
+                    {
+                        "var" : "b",
+                        "idx" : 1
+                    }
+                ],
+                "answer" : ["индивидуалочка",
+                            "Otvet=(math.sqrt(((A)**2)+(b**2)))/(2*(-A))",
+                            {
+                                "A" : 3,
+                                "b" : 3
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line": "Составлена матрица для проверки устойчивости системы по критерию Раусса-Гурвица. Определите передаточную функцию системы.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test11_12\\ind13.png"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Входное сопротивление инвертирующего усилителя на ОУ",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "зависит от значения сопротивления на входе"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p",
+                    "first_line": "Зависимый источник, так же как его независимый аналог, представляет собой двухполюсный элемент.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/label",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "Неверно"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line": "Определите передаточную функцию цепи с обратной связью, если известно, что",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img[2]",
+                    "second_line": "picts_test11_12\\16.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test11_12\\ind14.png"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Коэффициент передачи инвертирующего усилителя на ОУ",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "зависит от отношения сопротивлений в цепи обратной связи и на входе"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выходное сопротивление идеального операционного усилителя",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "бесконечно мало"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "По заданной схеме цепи определите вид звена обратной связи",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test11_12\\ind16.png"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "На вход неизвестной цепи подается сигнал u1(t). С выхода снят сигнал u2(t). Определите вид цепи.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]/img",
+                    "second_line": "picts_test11_12\\0.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "инвертирующий усилитель"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Коэффициент передачи идеального операционного усилителя",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "бесконечно велик"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Известна передаточная функция системы. Составьте матрицу для проверки устойчивости системы по критерию Раусса-Гурвица.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "4", "25", "48", "0", "0", "0",
+                    "2", "11", "37", "94", "0", "0",
+                    "0", "4", "25", "48", "0", "0",
+                    "0", "2", "11", "37", "94", "0",
+                    "0", "0", "4", "25", "48", "0",
+                    "0", "0", "2", "11", "37", "94"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line": "Определите напряжение на выходе сумматора, если",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test11_12\\19.png"
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "answer" : ["индивидуалочка",
+                            "Otvet= ((-u1*R)/R1)-((u2*R)/R2)+u3*(1+(R/((R1*R2)/(R1+R2))))",
+                            {
+                                "R1" : 7,
+                                "R2" : 10,
+                                "R" : 13,
+                                "u1" : 16,
+                                "u2" : 19,
+                                "u3" : 22
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определены нули и полюсы различных цепей. Устойчивы ли данные цепи?",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test11_12\\15.png"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "устойчивая", "неустойчивая", "неустойчивая", "устойчивая", "устойчивая"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "На вход неизвестной цепи подается сигнал u1(t). С выхода снят сигнал u2(t). Определите вид цепи.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]/img",
+                    "second_line": "picts_test11_12\\1.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "пассивный дифференциатор"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "На вход неизвестной цепи подается сигнал u1(t). С выхода снят сигнал u2(t). Определите вид цепи.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]/img",
+                    "second_line": "picts_test11_12\\2.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "неинвертирующий усилитель"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]",
+                    "first_line": "Схемой замещения идеального операционного усилителя является",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "ИНУН"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Укажите размерность коэффициента передачи для зависимых источников энергии.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "безр.", "Ом", "безр.", "См"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите напряжение на выходе инвертирующего усилителя, если R1=",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "answer" : ["индивидуалочка",
+                            "Otvet= (-uvx*R)/R1",
+                            {
+                                "R1" : 8,
+                                "R" : 11,
+                                "uvx" : 14
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите напряжение на выходе неинвертирующего усилителя, если R1=",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "answer" : ["индивидуалочка",
+                            "Otvet= uvx*(1+(R/R1))",
+                            {
+                                "R1" : 8,
+                                "R" : 11,
+                                "uvx" : 14
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Входное сопротивление идеального операционного усилителя",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "бесконечно велико"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "На вход неизвестной цепи подается сигнал u1(t). С выхода снят сигнал u2(t). Определите вид цепи.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]/img",
+                    "second_line": "picts_test11_12\\3.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "дифференциатор на ОУ"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]",
+                    "first_line": "Определите передаточную функцию цепи в операторной форме.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "select",
+                "text_sel_xp1": "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+                "text_sel_xp2": "]/td[1]/p/img",
+                "answer_sel_xp1": "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+                "answer_sel_xp2": "]/td[2]/select/option[",
+                "quantity_ans": 7,
+                "answer": [
+					{
+						"line" : "picts_test11_12\\ind5.png",
+						"ans" : "-(1+pCR)/pCR1"
+					},
+					{
+						"line" : "picts_test11_12\\ind6.png",
+						"ans" : "-pCR/(1+pCR1)"
+					}
+				]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line": "в момент времени",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test11_12\\20.png"
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "need_exact_value" : [
+                    {
+                        "var" : "A1",
+                        "idx" : 0
+                    },
+                    {
+                        "var" : "w1",
+                        "idx" : 1
+                    },
+                    {
+                        "var" : "A2",
+                        "idx" : 0
+                    },
+                    {
+                        "var" : "w2",
+                        "idx" : 1
+                    }
+                ],
+                "answer" : ["индивидуалочка",
+                            "Otvet= -A1*math.sin(w1*T*0.001)*(R/R1)+A2*math.sin(w2*T*0.001)*(1+(R/R1))",
+                            {
+                                "R1" : 7,
+                                "R" : 10,
+                                "A1" : 13,
+                                "w1" : 13,
+                                "A2" : 16,
+                                "w2" : 16,
+                                "T" : 22
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите напряжение на выходе сумматора, если",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test11_12\\21.png",
+                    "missing_xp": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "missing": "в момент времени"
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "answer" : ["индивидуалочка",
+                            "Otvet=((-R*u1)/R1)-((R*u2)/R2)",
+                            {
+                                "R1" : 7,
+                                "R2" : 10,
+                                "R" : 13,
+                                "u1" : 16,
+                                "u2" : 19
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите АЧХ цепи на частоте f=",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test11_12\\7.png"
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "answer" : ["индивидуалочка",
+                            "Otvet=(math.sqrt((( R*1000)**2)+((2*math.pi*f*1000)**2)*((L*0.001)**2)))/(R1*1000)",
+                            {
+                                "f" : 6,
+                                "R1" : 10,
+                                "R" : 13,
+                                "L" : 16
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "в момент времени",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test11_12\\21.png"
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "need_exact_value" : [
+                    {
+                        "var" : "A1",
+                        "idx" : 0
+                    },
+                    {
+                        "var" : "w1",
+                        "idx" : 1
+                    },
+                    {
+                        "var" : "A2",
+                        "idx" : 0
+                    },
+                    {
+                        "var" : "w2",
+                        "idx" : 1
+                    }
+                ],
+                "answer" : ["индивидуалочка",
+                            "Otvet= -A1*math.sin(w1*T*0.001)*(R/R1)-A2*math.sin(w2*T*0.001)*(R/R2)",
+                            {
+                                "R1" : 7,
+                                "R2" : 10,
+                                "R" : 13,
+                                "A1" : 16,
+                                "w1" : 16,
+                                "A2" : 19,
+                                "w2" : 19,
+                                "T" : 25
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите АЧХ цепи на частоте f=",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test11_12\\8.png"
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "answer" : ["индивидуалочка",
+                            "Otvet=(R*1000)/(math.sqrt((( R1*1000)**2)+((2*math.pi*f*1000)**2)*((L*0.001)**2)))",
+                            {
+                                "f" : 6,
+                                "R1" : 10,
+                                "R" : 13,
+                                "L" : 16
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line": "Определите передаточную функцию цепи с обратной связью, если известно, что",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img[2]",
+                    "second_line": "picts_test11_12\\17.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test11_12\\ind15.png"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите, является ли полином полиномом Гурвица",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "нет", "нет", "нет", "нет"
+                ]
+            },
+           {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите устойчивость цепи по годографу петлевого усиления.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img[1]",
+                    "second_line": "picts_test11_12\\12.png"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "неустойчивая", "устойчивая", "устойчивая", "неустойчивая"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определены нули и полюсы различных цепей. Устойчивы ли данные цепи?",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img[1]",
+                    "second_line": "picts_test11_12\\14.png"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "неустойчивая", "неустойчивая", "устойчивая", "неустойчивая"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "На вход неизвестной цепи подается сигнал u1(t). С выхода снят сигнал u2(t). Определите вид цепи.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]/img",
+                    "second_line": "picts_test11_12\\4.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "интегратор на ОУ"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Разделительная емкость в автогенераторе служит для",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "исключения постоянной составляющей сигнала на выходе автогенератора"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "При исследовании автогенератора с мостом Вина было обнаружено, что ",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "амплитуда напряжения на выходе автогенератора равна значению напряжения питания усилительного элемента"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line": "Для LC-генератора с трансформаторной обратной связью (L=2Гн, С=5мкФ, R1=50Ом) задана его колебательная характеристика.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "type_variable": "int",
+                "answer": "320"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Для запуска генератора гармонических колебаний необходимо",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "включить питание схемы без дополнительных воздействий"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Применение составного транзистора в качестве усилительного элемента автогенератора служит для",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "увеличения входного сопротивления звена усиления"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Рост амплитуды стационарных колебаний в автогенераторе ограничивается",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "условием равенства энергии, отдаваемой активным элементом в колебательный контур и энергии, рассеиваемой в нем"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите выражение для условия баланса фаз",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "φус(ωг)+φос(ωг)=2π"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Для обеспечения мягкого режима самовозбуждения автогенератора рабочая точка должна находиться",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "на середине линейного участка вольт-амперной характеристики с максимальной крутизной"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Для LC-генератора с трансформаторной обратной связью (L=2Гн, С=16мкФ, R1=10Ом) задана его колебательная характеристика.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "type_variable": "int",
+                "answer": "750"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Автогенератор находится в стационарном режиме.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "2.4","12","12"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Сигнал на выходе автогенератора в режиме самовозбуждения представляет собой",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "гармоническое колебание возрастающей амплитуды"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Частотно-зависимая обратная связь в автогенераторе служит для",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "выделения гармонического колебания из негармонического сигнала"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "В режиме самовозбуждения автогенератора полюсы передаточной функции расположены",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "в правой полуплоскости комплексной плоскости р"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите значение крутизны при мягком режиме самовозбуждения автогенератора",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "3.6 мА/В"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выполнение условия баланса амплитуд и условия баланса фаз для автогенератора возможно ",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "в стационарном режиме "
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Автогенератор с трансформаторной обратной связью содержит:",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "checkbox",
+                "text_chb_xp1": "default",
+                "answer": [
+                    "индуктивно-связанные катушки",
+                    "колебательный контур (параллельный)",
+                    "усилительный элемент"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Функциональное назначение генератора",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "преобразование постоянного напряжения в гармонический сигнал"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Генератор находится в стационарном режиме, если",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format" : "checkbox",
+                "text_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_chb_xp2" : "]/input[2]",
+                "answer": [
+                    "picts_test11_12\\ind23.png",
+                    "picts_test11_12\\ind24.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "В качестве цепи обратной связи в автогенераторе может быть использована",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "пассивная частотно-зависимая цепь"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "В качестве усилительного элемента в автогенераторе может быть использован",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "checkbox",
+                "text_chb_xp1": "default",
+                "answer": [
+                    "транзистор",
+                    "операционный усилитель"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "По виду колебательной характеристики определить положение рабочей точки.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "3","2"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "При исследовании RC-генератора c лестничной обратной связью было обнаружено, что ",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "амплитуда напряжения на выходе автогенератора меньше значения напряжения питания усилительного элемента"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "В стационарном режиме работы автогенератора полюсы передаточной функции расположены",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "на мнимой оси комплексной плоскости р"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Сигнал на выходе автогенератора в стационарном режиме представляет собой",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "гармоническое колебание постоянной амплитуды и постоянной частоты"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "При исследовании LC-генератора с мягким режимом самовозбуждения было обнаружено, что ",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "амплитуду напряжения на выходе автогенератора можно регулировать в диапазоне от нуля до максимального значения, меньшего, чем значение напряжения питания усилительного элемента"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Для LC-генератора с трансформаторной обратной связью (Rp=5кОм, L=1Гн) задана его колебательная характеристика.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "type_variable": "int",
+                "answer": "400"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите режимы работы автогенератора",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "режим самовозбуждения","режим стационарный"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Частота генерации автогенератора зависит от",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "параметров звена обратной связи"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Для LC-генератора с трансформаторной обратной связью (Rp=20кОм, L=0.8Гн) задана его колебательная характеристика.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "type_variable": "int",
+                "answer": "600"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Для обеспечения жесткого режима самовозбуждения автогенератора рабочая точка должна находиться",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "на нижнем загибе вольт-амперной характеристики"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Генератор находится в режиме самовозбуждения, если",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format" : "checkbox",
+                "text_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_chb_xp2" : "]/input[2]",
+                "answer": [
+                    "picts_test11_12\\ind25.png",
+                    "picts_test11_12\\ind26.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Автогенератор с мостом Вина содержит:",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "checkbox",
+                "text_chb_xp1": "default",
+                "answer": [
+                    "усилительный элемент",
+                    "мост Вина"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Дифференциальное уравнение автогенератора с трансформаторной обратной связью в режиме самовозбуждения",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test11_12\\ind21.png"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "При исследовании LC-генератора с жестким режимом самовозбуждения было обнаружено, что ",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "амплитуду напряжения на выходе автогенератора можно регулировать в диапазоне от минимального значения  до максимального значения, меньшего, чем значение напряжения питания усилительного элемента"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Сигнал на выходе автогенератора в стационарном режиме представляет собой",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "гармоническое колебание постоянной амплитуды и постоянной частоты"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите положение рабочей точки при жестком режиме самовозбуждения автогенератора",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "2"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определить критическое значение взаимной индуктивности Мкр  в мГн для LC-генератора, если",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "need_exact_value" : [
+                    {
+                        "var" : "L",
+                        "idx" : 0
+                    },
+                    {
+                        "var" : "S",
+                        "idx" : 0
+                    },
+                    {
+                        "var" : "Rp",
+                        "idx" : 0
+                    }
+                ],
+                "answer" : ["индивидуалочка",
+                            "Otvet=L/(S*Rp)",
+                            {
+                                "L" : 11,
+                                "S" : 13,
+                                "Rp" : 15
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Автогенератор с лестничной обратной связью содержит:",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "checkbox",
+                "text_chb_xp1": "default",
+                "answer": [
+                    "усилительный элемент",
+                    "фазосдвигающая RC-цепочка"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите положение рабочей точки при мягком режиме самовозбуждения автогенератора",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "3"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]",
+                    "first_line": "Выберите выражение для условия баланса амплитуд",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "Нус(ωг)*Нос(ωг)=1"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Дифференциальное уравнение автогенератора с трансформаторной обратной связью в стационарном режиме",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test11_12\\ind22.png"
+            }
+        ]
+    }
+}

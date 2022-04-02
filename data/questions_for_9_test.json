@@ -1,0 +1,765 @@
+{
+    "check_xpath_img": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+    "check_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[1]",
+    "array_xp": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div/span[",
+    "answer_xp": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/input[",
+    "string_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]",
+    "answer_inp_xp" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/span/input",
+    "link_xp": "/html/body/div[1]/div[2]/header/div/div/div/div[2]/div[1]/nav/ol/li[10]/a",
+    "type1": {
+        "main_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[2]",
+        "second_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[3]",
+        "text_xp1": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "text_xp2": "]/div/div/p",
+        "answer_xp1": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "answer_xp2": "]/input",
+
+        "text_chb_xp1": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "text_chb_xp2": "]/div/div",
+        "answer_chb_xp1": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "answer_chb_xp2": "]/input[2]",
+
+        "text_sel_xp1": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "text_sel_xp2": "]/td[1]",
+        "answer_sel_xp1": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "answer_sel_xp2": "]/td[2]/select/option[",
+        "questions": []
+    },
+    "type2": {
+        "main_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[1]",
+        "second_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[2]",
+        "text_xp1": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "text_xp2": "]/div/div/p",
+        "answer_xp1": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "answer_xp2": "]/input",
+
+        "text_chb_xp1": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "text_chb_xp2": "]/div/div",
+        "answer_chb_xp1": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "answer_chb_xp2": "]/input[2]",
+        
+        "text_sel_xp1": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "text_sel_xp2": "]/td[1]",
+        "answer_sel_xp1": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "answer_sel_xp2": "]/td[2]/select/option[",
+        "questions": [
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите определения, соответствующие данному четырехполюснику:",
+                    "second_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test9\\1.png"
+                },
+                "format": "checkbox",
+                "text_chb_xp1": "default",
+                "answer": [
+                    "симметричный", "обратимый", "неуравновешенный", "пассивный", "линейный"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Задана матрица А - параметров:",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "checkbox",
+                "text_chb_xp1": "default",
+                "answer": [
+                    "обратимым", "линейным"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]",
+                    "first_line": "Укажите размерность  параметра (перетащите мышкой требуемое значение)\n\nА12",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "Ом"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Укажите направления токов и напряжений для записи уравнения передачи в F-параметрах",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "array_xp": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div/img[",
+                "answer_xp": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/input[",
+                "answer": [
+                    "picts_test9\\ind1.png",
+                    "picts_test9\\ind2.png",
+                    "picts_test9\\ind3.png",
+                    "picts_test9\\ind4.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите определения, соответствующие данному четырехполюснику:",
+                    "second_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test9\\2.png"
+                },
+                "format": "checkbox",
+                "text_chb_xp1": "default",
+                "answer": [
+                    "несимметричный", "линейный", "обратимый", "пассивный", "неуравновешенный"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Запишите уравнение передачи в Y-параметрах",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "I1", "U1", "U2", "I2", "U1", "U2"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Четырехполюсник, содержащий источник тока, называется",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "select",
+                "text_sel_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div/p[",
+                "text_sel_xp2" : "]",
+                "answer_sel_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div/p[",
+                "answer_sel_xp2" : "]/span/select/option[",
+                "quantity_ans" : 6,
+                "answer" : [
+					{
+						"line" : "Четырехполюсник, содержащий источник тока, называется",
+						"ans" : "активным"
+					}
+				]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите определения, соответствующие данному четырехполюснику:",
+                    "second_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test9\\3.png"
+                },
+                "format": "checkbox",
+                "text_chb_xp1": "default",
+                "answer": [
+                    "уравновешенный", "пассивный", "обратимый", "симметричный", "линейный"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите определения, соответствующие данному четырехполюснику:",
+                    "second_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test9\\4.png"
+                },
+                "format": "checkbox",
+                "text_chb_xp1": "default",
+                "answer": [
+                    "пассивный", "обратимый", "линейный", "несимметричный", "уравновешенный"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]",
+                    "first_line": "Укажите размерность  параметра (перетащите мышкой требуемое значение)\n\nZ22",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "Ом"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Запишите уравнение передачи в Z-параметрах",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "U1", "I1", "I2",
+                    "U2", "I1", "I2"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Запишите уравнение передачи в H-параметрах",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "U1", "I1", "U2",
+                    "I2", "I1", "U2"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите безразмерные величины:",
+                    "second_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test9\\0.png"
+                },
+                "format": "checkbox",
+                "text_chb_xp1": "default",
+                "answer": [
+                    "2", "4"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Запишите уравнение передачи в А-параметрах",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "U1", "U2", "I2",
+                    "I1", "U2", "I2"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "В линейном симметричном четырехполюснике основные параметры связаны соотношениями:",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "checkbox",
+                "text_chb_xp1": "default",
+                "answer": [
+                    "А11 = А22", "А11*А22 - А12*А21=1"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]",
+                    "first_line": "Укажите размерность  параметра (перетащите мышкой требуемое значение)\n\nZ21",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "Ом"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Имеется обратимый четырехполюсник. Определите А12, если",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "type_variable": "int",
+                "answer": [
+                    "40"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]",
+                    "first_line": "Укажите размерность  параметра (перетащите мышкой требуемое значение)\n\nY11",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "См"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]",
+                    "first_line": "Укажите размерность  параметра (перетащите мышкой требуемое значение)\n\nА21",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "См"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Укажите направления токов и напряжений для записи уравнения передачи в H-параметрах",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "array_xp": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div/img[",
+                "answer_xp": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/input[",
+                "answer": [
+                    "picts_test9\\ind1.png",
+                    "picts_test9\\ind2.png",
+                    "picts_test9\\ind3.png",
+                    "picts_test9\\ind4.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите определения, соответствующие данному четырехполюснику:",
+                    "second_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test9\\5.png"
+                },
+                "format": "checkbox",
+                "text_chb_xp1": "default",
+                "answer": [
+                    "необратимый", "несимметричный", "пассивный", "неуравновешенный", "нелинейный"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]",
+                    "first_line": "Укажите размерность  параметра (перетащите мышкой требуемое значение)\n\nZ12",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "Ом"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "В уравнениях четырехполюсника в А-параметрах безразмерными являются коэффициенты:",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "checkbox",
+                "text_chb_xp1": "default",
+                "answer": [
+                    "А11", "А22"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Симметричный четырехполюсник имеет",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "select",
+                "text_sel_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div/p[",
+                "text_sel_xp2" : "]",
+                "answer_sel_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div/p[",
+                "answer_sel_xp2" : "]/span/select/option[",
+                "quantity_ans" : 5,
+                "answer" : [
+					{
+						"line" : "Симметричный четырехполюсник имеет",
+						"ans" : "вертикальную"
+					}
+				]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "В любом линейном пассивном четырехполюснике основные параметры связаны соотношением:",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "А11*А22 - А12*А21=1"
+            }, {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Задано уравнение передачи в А-параметрах.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "select",
+                "quantity_ans" : 6,
+                "answer" : [
+					{
+						"line" : "Укажите размерность параметра А11",
+						"ans" : "безразмерный"
+					},
+                    {
+						"line" : "Укажите размерность параметра А12",
+						"ans" : "Ом"
+					},
+                    {
+						"line" : "Укажите размерность параметра А21",
+						"ans" : "Сименс"
+					}
+				]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите верное утверждение.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "checkbox",
+                "text_chb_xp1": "default",
+                "answer": [
+                    "Активный четырехполюсник содержит источники энергии",
+                    "Симметричный четырехполюсник всегда обратим"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Укажите направления токов и напряжений для записи уравнения передачи в А-параметрах",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "array_xp": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div/img[",
+                "answer_xp": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/input[",
+                "answer": [
+                    "picts_test9\\ind1.png",
+                    "picts_test9\\ind5.png",
+                    "picts_test9\\ind3.png",
+                    "picts_test9\\ind4.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите рабочие параметры четырехполюсника",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "checkbox",
+                "text_chb_xp1": "default",
+                "answer": [
+                    "Ap","Гp","Zвх1"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]",
+                    "first_line": "Если в уравнениях передачи симметричного четырехполюсника в А-параметрах",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "3"
+                    
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]",
+                    "first_line": "Укажите размерность  параметра (перетащите мышкой требуемое значение)\n\nY12",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "См"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Уравновешенный четырехполюсник имеет",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "select",
+                "quantity_ans" : 5,
+                "text_sel_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div/p[",
+                "text_sel_xp2" : "]",
+                "answer_sel_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div/p[",
+                "answer_sel_xp2" : "]/span/select/option[",
+                "answer": [
+                    {
+						"line" : "Уравновешенный четырехполюсник имеет",
+						"ans" : "горизонтальную"
+					}
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Укажите направления токов и напряжений для записи уравнения передачи в B-параметрах",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "array_xp": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div/img[",
+                "answer_xp": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/input[",
+                "answer": [
+                    "picts_test9\\ind1.png",
+                    "picts_test9\\ind2.png",
+                    "picts_test9\\ind6.png",
+                    "picts_test9\\ind4.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]",
+                    "first_line": "Укажите размерность  параметра (перетащите мышкой требуемое значение)\n\nY21",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "См"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Укажите направления токов и напряжений для записи уравнения передачи в Y-параметрах",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "array_xp": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div/img[",
+                "answer_xp": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/input[",
+                "answer": [
+                    "picts_test9\\ind1.png",
+                    "picts_test9\\ind2.png",
+                    "picts_test9\\ind3.png",
+                    "picts_test9\\ind4.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите определения, соответствующие данному четырехполюснику:",
+                    "second_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test9\\6.png"
+                },
+                "format": "checkbox",
+                "text_chb_xp1": "default",
+                "answer": [
+                    "линейный", "активный", "необратимый", "несимметричный", "неуравновешенный"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]",
+                    "first_line": "Укажите размерность  параметра (перетащите мышкой требуемое значение)\n\nY22",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "См"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Укажите направления токов и напряжений для записи уравнения передачи в Z-параметрах",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "array_xp": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div/img[",
+                "answer_xp": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/input[",
+                "answer": [
+                    "picts_test9\\ind1.png",
+                    "picts_test9\\ind2.png",
+                    "picts_test9\\ind3.png",
+                    "picts_test9\\ind4.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите собственные параметры четырехполюсника",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "checkbox",
+                "text_chb_xp1": "default",
+                "answer": [
+                    "Ac","Zc1","Zc2"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Запишите уравнение передачи в F-параметрах",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "I1", "U1", "I2",
+                    "U2", "U1", "I2"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]",
+                    "first_line": "Если в уравнениях передачи обратимого четырехполюсника в А-параметрах",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "2"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]",
+                    "first_line": "Укажите размерность  параметра (перетащите мышкой требуемое значение)\n\nА11",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "безразм"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите определения, соответствующие данному четырехполюснику:",
+                    "second_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test9\\7.png"
+                },
+                "format": "checkbox",
+                "text_chb_xp1": "default",
+                "answer": [
+                    "симметричный", "линейный", "обратимый", "неуравновешенный", "активный"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Имеется обратимый четырехполюсник. Определите А11, если",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "type_variable": "int",
+                "answer": "9"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Имеется симметричный четырехполюсник. Определите А12, если",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "type_variable": "int",
+                "answer": "800"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Запишите уравнение передачи в B-параметрах",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "U2", "U1", "I1",
+                    "I2", "U1", "I1"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]",
+                    "first_line": "Укажите размерность  параметра (перетащите мышкой требуемое значение)\n\nА22",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [ 
+                   "безразм" 
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "По заданной матрице А-параметров запишите уравнение передачи четырехполюсника",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "multiple_arrays" : 2,
+                "array_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "answer": [
+                    "U1", "3", "U2", "100", "I2",
+                    "I1", "0.02", "U2", "1", "I2"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выход первого четырехполюсника соединяется со входом второго четырехполюсника при",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "select",
+                "quantity_ans" : 6,
+                "text_sel_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div/p[",
+                "text_sel_xp2" : "]",
+                "answer_sel_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div/p[",
+                "answer_sel_xp2" : "]/span/select/option[",
+                "answer": [
+                    {
+						"line" : "Выход первого четырехполюсника соединяется со входом второго четырехполюсника при",
+						"ans" : "каскадном"
+					}
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]",
+                    "first_line": "Укажите размерность  параметра (перетащите мышкой требуемое значение)\n\nZ11",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "Ом"
+                ]
+            }
+        ]
+    }
+}

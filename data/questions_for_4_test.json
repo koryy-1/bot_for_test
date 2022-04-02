@@ -1,0 +1,715 @@
+{
+    "check_xpath_img" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+    "check_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[1]",
+    "array_xp" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div/span[",
+    "answer_xp" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/input[",
+    "string_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]",
+    "answer_inp_xp" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/span/input",
+    "link_xp" : "/html/body/div[1]/div[2]/header/div/div/div/div[2]/div[1]/nav/ol/li[10]/a",
+	"type1" : {
+		"main_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[2]",
+        "second_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[3]",
+        "text_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "text_xp2" : "]/div/div/p",
+        "answer_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "answer_xp2" : "]/input",
+
+        "text_chb_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "text_chb_xp2" : "]/div/div",
+        "answer_chb_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "answer_chb_xp2" : "]/input[2]",
+
+        "text_sel_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "text_sel_xp2" : "]/td[1]",
+        "answer_sel_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "answer_sel_xp2" : "]/td[2]/select/option[",
+
+		"questions" : [
+			{
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Определить добротность контура",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+				"answer" : "6"
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Определить относительную полосу пропускания",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+				"answer" : "0,2"
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Определить величину абсолютной полосы пропускания в кГц.",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+				"answer" : "10"
+			},
+			{
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Определите, какие частотные характеристики последовательного контура приведены на рисунке, если на вход подано напряжение",
+                    "second_xpath" : "default",
+                    "second_line" : "u(t) = 14.1sin(32*103*π*t) В"
+                },
+				"format" : "drag&drop",
+                "array_xp" : "default",
+                "answer_xp" : "default",
+                "create_array" : true,
+				"answer" : [
+					"φuL(f)", "Z(f)",
+					"φuR(f)", "uL(f)",
+					"uc(f)", "uR(f)",
+                    "φuC(f)", "φZ(f)"
+				]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]",
+                    "first_line" : "Определить величину обобщенной расстройки, если",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "need_exact_value" : {
+                    "var" : 19,
+                    "start" : 7,
+                    "end" : 10
+                },
+				"answer" : ["индивидуалочка",
+                            "Otvet=(math.sqrt(L/(C*(10**(-6))))/R)*((wz/(1/(math.sqrt(L*C*(10**(-6))))))-((1/(math.sqrt(L*C*(10**(-6)))))/wz))",
+                            {
+                                "R" : 7,
+                                "L" : 11,
+                                "C" : 15,
+                                "wz" : 19
+                            }]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Выберите выражения, характеризующие резонансный контур",
+                    "second_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line" : "picts_test4\\2.png"
+                },
+				"format" : "checkbox",
+                "text_chb_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_chb_xp2" : "]/input[2]",
+				"answer" : [
+					"picts_test4\\ind1.png",
+					"picts_test4\\ind2.png",
+					"picts_test4\\ind3.png",
+                    "picts_test4\\ind4.png",
+                    "picts_test4\\ind5.png",
+					"picts_test4\\ind6.png",
+                    "picts_test4\\ind7.png"
+				]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Выберите выражения, характеризующие резонансный контур",
+                    "second_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line" : "picts_test4\\3.png"
+                },
+				"format" : "checkbox",
+                "text_chb_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_chb_xp2" : "]/input[2]",
+				"answer" : [
+					"picts_test4\\ind8.png",
+					"picts_test4\\ind9.png",
+					"picts_test4\\ind10.png",
+                    "picts_test4\\ind11.png",
+                    "picts_test4\\ind12.png",
+					"picts_test4\\ind13.png"
+				]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Выберите выражения, характеризующие резонансный контур",
+                    "second_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line" : "picts_test4\\5.png"
+                },
+				"format" : "checkbox",
+                "text_chb_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_chb_xp2" : "]/input[2]",
+				"answer" : [
+					"picts_test4\\ind16.png",
+					"picts_test4\\ind17.png",
+					"picts_test4\\ind18.png",
+                    "picts_test4\\ind19.png",
+                    "picts_test4\\ind20.png"
+				]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "f0 = 5 кГц, ρ = 628 Ом, Q = 39,25.",
+                    "second_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "second_line" : "Определите первичные параметры контура:"
+                },
+				"format" : "drag&drop",
+                "array_xp" : "default",
+                "answer_xp" : "default",
+                "create_array" : true,
+				"answer" : ["16", "20", "50,7"]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Закон изменения напряжения на индуктивности при резонансе uL(t) = 100sin(5000t+30°)B.",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "select",
+				"quantity_ans" : 6,
+				"answer" : [
+					{
+						"line" : "напряжение на резисторе",
+						"ans" : "5sin(5000t-60°)"
+					},
+					{
+						"line" : "напряжение на емкости",
+						"ans" : "100sin(5000t-150°)"
+					},
+					{
+						"line" : "входное напряжение",
+						"ans" : "5sin(5000t-60°)"
+					}
+				]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "R = 20 Ом, L = 20 мГн, C = 52 нФ.",
+                    "second_xpath" : "default",
+                    "second_line" : "На последовательный контур действует напряжение u(t) = 6sin (31000t+40°)B."
+                },
+				"format" : "drag&drop",
+                "array_xp" : "default",
+                "answer_xp" : "default",
+                "create_array" : true,
+				"answer" : ["300", "40", "6", "40", "186", "130", "186", "-50"]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Определить модуль и фазу сопротивления, если:",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "drag&drop",
+                "array_xp" : "default",
+                "answer_xp" : "default",
+                "create_array" : true,
+				"answer" : ["∞", "-90", "2.83", "-45", "2", "0", "2.83", "45", "∞", "90"]
+			},
+			{
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Определите, при каких условиях схема находится в режиме резонанса",
+                    "second_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line" : "picts_test4\\0.png"
+                },
+				"format" : "checkbox",
+                "text_chb_xp1" : "default",
+                "answer_chb_xp1" : "default",
+				"answer" : ["R = 4 Ом, L = 2 мГн, C = 1 мкФ, V = 16 В, A = 4 А",
+                            "R = 5 Ом, L = 1 мГн, C =21 мкФ, V = 15 В, A = 3 А",
+                            "R = 3 Ом, L = 2 мГн, C = 1 мкФ, V = 15 В, A = 5 А",
+                            "R = 10 Ом, L = 2 мГн, C = 1 мкФ, V = 20 В, A = 2 А",
+                            "R = 2 Ом, L = 1 мГн, C = 2 мкФ, V = 20 В, A = 10 А"]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Определите,при каких параметрах схема находится в режиме резонанса.",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "checkbox",
+                "text_chb_xp1" : "default",
+                "answer_chb_xp1" : "default",
+				"answer" : ["R = 4 Ом, C = 0.5 нФ, L = 2 мГн, ω0 = 1*106 рад/с ",
+                            "R = 10 Ом, C = 3 нФ, L = 6 мГн, ω0 = 2.375*105 рад/с ",
+                            "R = 20 Ом,C = 0.3 нФ, L = 8 мГн, ω0 = 6.45*105 рад/с ",
+                            "R = 15 Ом, C = 5 нФ, L = 3 мГн, ω0 = 2.58*105 рад/с "]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Определите, при каких условиях схема находится в режиме резонанса",
+                    "second_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line" : "picts_test4\\4.png"
+                },
+				"format" : "checkbox",
+                "text_chb_xp1" : "default",
+                "answer_chb_xp1" : "default",
+				"answer" : ["R1 = 5 Ом, R2 = 3 Ом, L = 5 мГн, C = 50 нФ, V = 25 В, A = 2 мА",
+                            "R1 = 3 Ом, R2 = 5 Ом, L = 2 мГн, C = 100 нФ, V = 60 В, A = 24 мА",
+                            "R1 = 6 Ом, R2 = 4 Ом, L = 8 мГн, C = 100 нФ, V = 40 В, A = 5 мА"]
+			}
+		]
+	},
+	"type2" : {
+		"main_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[1]",
+        "second_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[2]",
+        "text_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "text_xp2" : "]/div/div/p",
+        "answer_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "answer_xp2" : "]/input",
+
+        "text_chb_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "text_chb_xp2" : "]/div/div",
+        "answer_chb_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "answer_chb_xp2" : "]/input[2]",
+
+        "text_sel_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "text_sel_xp2" : "]/td[1]",
+        "answer_sel_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "answer_sel_xp2" : "]/td[2]/select/option[",
+        
+		"questions" : [
+            {
+                "quest_text" : {
+                    "main_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]",
+                    "first_line" : "Определить реактивное сопротивление  последовательного колебательного контура в омах, если",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+				"answer" : ["индивидуалочка",
+                            "XL+XC=(1j*2*(math.pi)*f*L*(10**(-3))).imag+(-1j/(2*(math.pi)*f*C*(10**(-9)))).imag",
+                            {
+                                "R" : 11,
+                                "L" : 15,
+                                "C" : 19,
+                                "f" : 23
+                            }]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]",
+                    "first_line" : "Известны первичные параметры последовательного колебательного контура",
+                    "second_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "second_line" : "Определить величину внутреннего сопротивления источника в омах, если при его подключении добротность уменьшилась"
+                },
+				"format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+				"answer" : ["индивидуалочка",
+                            "Otvet=((R*(math.sqrt((L*10**(-3))/(C*10**(-9)))/R))-(R*((math.sqrt((L*10**(-3))/(C*10**(-9)))/R)/n)))/((math.sqrt((L*10**(-3))/(C*10**(-9)))/R)/n)",
+                            {
+                                "R" : 8,
+                                "L" : 12,
+                                "C" : 16,
+                                "n" : 32
+                            }]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]",
+                    "first_line" : "Известны первичные параметры последовательного колебательного контура",
+                    "second_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "second_line" : "Определить период колебаний контура в мкс, если контур настроен на резонансную частоту."
+                },
+				"format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+				"answer" : ["индивидуалочка",
+                            "Otvet=(2*(math.pi)*(10**(6)))*(math.sqrt(L*C*(10**(-12))))",
+                            {
+                                "R" : 8,
+                                "L" : 12,
+                                "C" : 16
+                            }]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]",
+                    "first_line" : "Известны первичные параметры последовательного колебательного контура",
+                    "second_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "second_line" : "Определить значение относительной расстройки контура."
+                },
+				"format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "need_exact_value" : {
+                    "var" : 20,
+                    "start" : 7,
+                    "end" : 10
+                },
+				"answer" : ["индивидуалочка",
+                            "Otvet=(wz-(1/(math.sqrt(L*C*(10**(-6))))))/(1/(math.sqrt(L*C*(10**(-6)))))",
+                            {
+                                "R" : 8,
+                                "L" : 12,
+                                "C" : 16,
+                                "wz" : 20
+                            }]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]",
+                    "first_line" : "Известны первичные параметры последовательного колебательного контура",
+                    "second_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "second_line" : "Определить значение характеристического сопротивления  в омах."
+                },
+				"format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+				"answer" : ["индивидуалочка",
+                            "Otvet=math.sqrt((L*10**(-3))/(C*10**(-9)))",
+                            {
+                                "R" : 8,
+                                "L" : 12,
+                                "C" : 16
+                            }]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]",
+                    "first_line" : "Известны первичные параметры последовательного колебательного контура",
+                    "second_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "second_line" : "Определить значение абсолютной расстройки контура в Гц."
+                },
+				"format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "need_exact_value" : {
+                    "var" : 20,
+                    "start" : 7,
+                    "end" : 10
+                },
+				"answer" : ["индивидуалочка",
+                            "Otvet=(wz/(2*(math.pi)))-(1/(math.sqrt(L*C*(10**(-6))))*(1/(2*(math.pi))))",
+                            {
+                                "R" : 8,
+                                "L" : 12,
+                                "C" : 16,
+                                "wz" : 20
+                            }]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]",
+                    "first_line" : "Известны первичные параметры последовательного колебательного контура",
+                    "second_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "second_line" : "Определить значение затухания контура."
+                },
+				"format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+				"answer" : ["индивидуалочка",
+                            "Otvet=R/math.sqrt((L*10**(-3))/(C*10**(-9)))",
+                            {
+                                "R" : 8,
+                                "L" : 12,
+                                "C" : 16
+                            }]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]",
+                    "first_line" : "Известны первичные параметры последовательного колебательного контура",
+                    "second_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "second_line" : "Определите внутреннее сопротивление источника в омах, если при его подключении добротность уменьшилась "
+                },
+				"format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+				"answer" : ["индивидуалочка",
+                            "Otvet=((R*(math.sqrt((L*10**(-3))/(C*10**(-9)))/R))-(R*((math.sqrt((L*10**(-3))/(C*10**(-9)))/R)/n)))/((math.sqrt((L*10**(-3))/(C*10**(-9)))/R)/n)",
+                            {
+                                "R" : 8,
+                                "L" : 12,
+                                "C" : 16,
+                                "n" : 31
+                            }]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]",
+                    "first_line" : "Известна частота резонанса последовательного контура",
+                    "second_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "second_line" : "Определить частоту резонанса в кГц при увеличении емкости"
+                },
+				"format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+				"answer" : ["индивидуалочка",
+                            "Otvet=(1/(math.sqrt(((1/(fr*(10**(3))*2*(math.pi))**2)*n))))*(1/(2*(math.pi)))*(10**(-3))",
+                            {
+                                "fr" : 7,
+                                "n" : 18
+                            }]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]",
+                    "first_line" : "Определить частоту резонанса в кГц.",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+				"answer" : ["индивидуалочка",
+                            "Otvet=(1/(math.sqrt(L*C*(10**(-12)))))*(1/(2*(math.pi)))*(10**(-3))",
+                            {
+                                "L" : 10,
+                                "C" : 14
+                            }]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Даны частотные характеристики тока.",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "drag&drop",
+                "array_xp" : "default",
+                "answer_xp" : "default",
+                "create_array" : true,
+				"answer" : [
+                    "1.67", "2.5", "5"
+                ]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Определите добротность каждого из контуров, если R1 = 20 Ом, R2 = 5 Ом, L = 4 мГн, C = 100 нФ, Rн = 6 кОм.",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "drag&drop",
+                "array_xp" : "default",
+                "answer_xp" : "default",
+                "create_array" : true,
+				"answer" : [
+                    "10", "7.5", "8", "6.3"
+                ]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "При увеличении добротности контура",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "checkbox",
+                "text_chb_xp1" : "default",
+                "answer_chb_xp1" : "default",
+				"answer" : ["уменьшается затухание контура",
+                            "увеличивается действующее значение напряжения на реактивных элементах",
+                            "уменьшается полоса пропускания"]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Добротность контура позволяет оценить:",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "checkbox",
+                "text_chb_xp1" : "default",
+                "answer_chb_xp1" : "default",
+				"answer" : ["полосу пропускания",
+                            "избирательные свойства контура"]
+			},
+			{
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Для качественной работы колебательного контура необходимо, чтобы:",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "drag&drop",
+                "array_xp" : "default",
+                "answer_xp" : "default",
+                "create_array" : true,
+				"answer" : [
+                    "стремилось к нулю", "стремилось к бесконечности",
+                    "стремилось к бесконечности", "стремилось к бесконечности"
+                ]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Определить сопротивление контура",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "drag&drop",
+                "array_xp" : "default",
+                "answer_xp" : "default",
+                "create_array" : true,
+				"answer" : [
+                    "0", "R1", "R1",
+                    "∞", "Rp", "Rp",
+                    "0", "0", "R2"
+                ]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Определить ток в контуре",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "drag&drop",
+                "array_xp" : "default",
+                "answer_xp" : "default",
+                "create_array" : true,
+				"answer" : [
+                    "∞", "U/R1", "U/R1",
+                    "0", "U/Rp", "U/Rp",
+                    "∞", "∞", "U/R2"
+                ]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Дан последовательный контур. Определить, каким частотам соответствуют векторные диаграммы.",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "drag&drop",
+                "array_xp" : "default",
+                "answer_xp" : "default",
+                "create_array" : true,
+				"answer" : [
+                    "f = f0", "f = 2f0", "f = 0.5f0"
+                ]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Расстройкой называют степень отклонения режима работы контура от резонанса. Расстройки бывают:",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "checkbox",
+                "text_chb_xp1" : "default",
+                "answer_chb_xp1" : "default",
+				"answer" : ["относительная",
+                            "обобщенная",
+                            "абсолютная"]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Определите, в какой из схем возможен резонанс, если RE - мало, RJ - велико.",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "checkbox",
+                "text_chb_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_chb_xp2" : "]/input[2]",
+				"answer" : [
+					"picts_test4\\ind14.png",
+					"picts_test4\\ind15.png"
+				]
+			},
+			{
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Резонанс напряжений в цепи наступает при",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "radio checkbox",
+                "text_xp1" : "default",
+                "answer_xp1" : "default",
+				"answer" : "XL=XC"
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "При резонансе токов реактивная проводимость контура равна",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "radio checkbox",
+                "text_xp1" : "default",
+                "answer_xp1" : "default",
+				"answer" : "нулю"
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Резонанс напряжений возникает:",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "radio checkbox",
+                "text_xp1" : "default",
+                "answer_xp1" : "default",
+				"answer" : "В электрической цепи, состоящей из последовательно соединенных активного сопротивления, конденсатора и катушки индуктивности"
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Изменением каких параметров электрической цепи при последовательном включении R, L и С нельзя добиться резонанса напряжений",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "checkbox",
+                "text_chb_xp1" : "default",
+                "answer_chb_xp1" : "default",
+				"answer" : ["R",
+                            "Um"]
+			},
+			{
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Дополните высказывание",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "select",
+				"quantity_ans" : 9,
+				"answer" : [
+					{
+						"line" : "При резонансе токов общий ток в цепи имеет",
+						"ans" : "минимальное значение"
+					},
+					{
+						"line" : "При резонансе напряжений ток имеет",
+						"ans" : "максимальное значение"
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,689 @@
+{
+    "check_xpath_img" : "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+    "check_xpath" : "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+    "array_xp" : "//form/div/div[1]/div[2]/div/div[2]/div/span[",
+    "answer_xp" : "//form/div/div[1]/div[2]/div/input[",
+    "string_xpath" : "//form/div/div[1]/div[2]/div/div[1]",
+    "answer_inp_xp" : "//form/div/div[1]/div[2]/div/div[2]/span/input",
+    "link_xp" : "//form/div/div[1]/div[1]",
+	"type1" : {
+		"main_xpath" : "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+        "second_xpath" : "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+        "text_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "text_xp2" : "]/div/div/p",
+        "answer_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "answer_xp2" : "]/input",
+
+        "text_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "text_chb_xp2" : "]/div/div",
+        "answer_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "answer_chb_xp2" : "]/input[2]",
+
+        "text_sel_xp1" : "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "text_sel_xp2" : "]/td[1]",
+        "answer_sel_xp1" : "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "answer_sel_xp2" : "]/td[2]/select/option[",
+
+		"questions" : [
+			{
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Для заданной дискретной цепи определите нулевой отсчет импульсной характеристики.",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "int",
+				"answer" : "1"
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Определите отсчеты дискретного сигнала при дискретизации его с fд=1 кГц.",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "drag&drop",
+                "array_xp" : "default",
+                "answer_xp" : "default",
+                "create_array" : true,
+				"answer" : ["0", "1", "0.75", "0.25"]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Определите отсчеты дискретного сигнала при дискретизации его с fд=2 кГц.",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "drag&drop",
+                "array_xp" : "default",
+                "answer_xp" : "default",
+                "create_array" : true,
+				"answer" : ["0", "0.5", "1", "0.75"]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Определите значения отсчетов амплитудного и фазового спектров.",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 2,
+				"answer" : ["8", "1.4", "4", "1.4", "8",
+                            "0", "-45", "0", "-45", "0"]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Составить выражение его Z-изображения.",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "drag&drop",
+                "array_xp" : "default",
+                "answer_xp" : "default",
+                "create_array" : true,
+				"answer" : ["1", "2", "0", "5", "0", "0", "7", "0"]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line" : "Определите значение АЧХ цепи на частоте , если ",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "drag&drop",
+                "array_xp" : "default",
+                "answer_xp" : "default",
+                "create_array" : true,
+				"answer" : ["0,5"]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Определить сигнал на выходе цепи",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "drag&drop",
+                "array_xp" : "default",
+                "answer_xp" : "default",
+                "create_array" : true,
+				"answer" : ["3", "1", "3.5", "-4", "3"]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "//form/div/div[1]/div[2]/div/div[1]/p",
+                    "first_line" : "Для дискретного периодического сигнала  определите отсчет  для ",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "radio checkbox",
+                "text_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[1]/div[",
+                "text_xp2" : "]/div/div/p",
+                "answer_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[1]/div[",
+                "answer_xp2" : "]/input",
+				"answer" : "4"
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Определите выражение, соответствующее дискретному сигналу.",
+                    "second_xpath" : "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line" : "picts_test8\\0.png"
+                },
+				"format" : "radio checkbox",
+                "text_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[1]/div[",
+                "text_xp2" : "]/div/div/p/img",
+                "answer_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[1]/div[",
+                "answer_xp2" : "]/input",
+				"answer" : "picts_test8\\ind1.png"
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "first_line" : "Определите массив значений, соответствующий дискретному сигналу.",
+                    "second_xpath" : "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line" : "picts_test8\\1.png"
+                },
+				"format" : "radio checkbox",
+                "text_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[1]/div[",
+                "text_xp2" : "]/div/div/p/img",
+                "answer_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[1]/div[",
+                "answer_xp2" : "]/input",
+				"answer" : "picts_test8\\ind5.png"
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "//form/div/div[1]/div[2]/div/div[1]/p",
+                    "first_line" : "Определите значение х(1), если ",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "radio checkbox",
+                "text_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[1]/div[",
+                "text_xp2" : "]/div/div/p",
+                "answer_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[1]/div[",
+                "answer_xp2" : "]/input",
+				"answer" : "-0,16"
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Определите Z-изображение сигнала на выходе цепи, если ",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "radio checkbox",
+                "text_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[1]/div[",
+                "text_xp2" : "]/div/div/p/img",
+                "answer_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[1]/div[",
+                "answer_xp2" : "]/input",
+				"answer" : "picts_test8\\ind7.png"
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "first_line" : "Определите разностное уравнение дискретной цепи",
+                    "second_xpath" : "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line" : "picts_test8\\4.png"
+                },
+				"format" : "radio checkbox",
+                "text_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[1]/div[",
+                "text_xp2" : "]/div/div/p/img",
+                "answer_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[1]/div[",
+                "answer_xp2" : "]/input",
+				"answer" : "picts_test8\\ind14.png"
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line" : "Определите передаточную функцию дискретной цепи",
+                    "second_xpath" : "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line" : "picts_test8\\3.png"
+                },
+				"format" : "radio checkbox",
+                "text_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[1]/div[",
+                "text_xp2" : "]/div/div/p/img",
+                "answer_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[1]/div[",
+                "answer_xp2" : "]/input",
+				"answer" : "picts_test8\\ind12.png"
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Определите разностное уравнение дискретной цепи",
+                    "second_xpath" : "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line" : "picts_test8\\5.png"
+                },
+				"format" : "radio checkbox",
+                "text_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[1]/div[",
+                "text_xp2" : "]/div/div/p/img",
+                "answer_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[1]/div[",
+                "answer_xp2" : "]/input",
+				"answer" : "picts_test8\\ind15.png"
+			}
+		]
+	},
+	"type2" : {
+		"main_xpath" : "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+        "second_xpath" : "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+        "text_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "text_xp2" : "]/div/div/p",
+        "answer_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "answer_xp2" : "]/input",
+
+        "text_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "text_chb_xp2" : "]/div/div",
+        "answer_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "answer_chb_xp2" : "]/input[2]",
+        
+
+        "text_sel_xp1" : "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "text_sel_xp2" : "]/td[1]",
+        "answer_sel_xp1" : "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "answer_sel_xp2" : "]/td[2]/select/option[",
+        
+		"questions" : [
+            {
+                "quest_text" : {
+                    "main_xpath" : "//form/div/div[1]/div[2]/div/div[1]",
+                    "first_line" : "Аналоговый сигнал x(t)=5*e-2000t дискретизировали с частотой дискретизации",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "need_exact_value" : [
+                    {
+                        "var" : 7,
+                        "start" : 3,
+                        "end" : 5
+                    },
+                    {
+                        "var" : 13,
+                        "start" : 2,
+                        "end" : 3
+                    }
+                ],
+				"answer" : ["индивидуалочка",
+                            "Otvet=5*math.exp(-2000*xT*(1/(fd*1000)))",
+                            {
+                                "fd" : 7,
+                                "xT" : 13
+                            }]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "//form/div/div[1]/div[2]/div/div[1]",
+                    "first_line" : "Определите отсчет сигнала y(1), полученного в результате линейной свертки последовательностей x1(n) и x2(n), если",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "int",
+				"answer" : ["индивидуалочка",
+                            "Otvet=x11*x22+x12*x21",
+                            {
+                                "x11" : 17,
+                                "x12" : 19,
+                                "x21" : 27,
+                                "x22" : 29
+                            }]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "//form/div/div[1]/div[2]/div/div[1]",
+                    "first_line" : "Определены коэффициенты ДПФ ",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "need_exact_value" : [
+                    {
+                        "var" : 6,
+                        "idx" : 0
+                    },
+                    {
+                        "var" : 10,
+                        "idx" : 0
+                    }
+                ],
+				"answer" : ["индивидуалочка",
+                            "Otvet=(1/5)*(xk1+xk2+xk3+xk4+xk5)",
+                            {
+                                "xk1" : 4,
+                                "xk2" : 6,
+                                "xk3" : 8,
+                                "xk4" : 10,
+                                "xk5" : 12
+                            }]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "//form/div/div[1]/div[2]/div/div[1]",
+                    "first_line" : "Чему равно минимальное значение частоты дискретизации в кГц для сигнала",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "int",
+                "need_exact_value" : [
+                    {
+                        "var" : 11,
+                        "slice_to" : "=",
+                        "ind" : 1
+                    }
+                ],
+				"answer" : ["индивидуалочка",
+                            "Otvet=fv*2",
+                            {
+                                "fv" : 11
+                            }]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "//form/div/div[1]/div[2]/div/div[1]",
+                    "first_line" : "Определить значение y(2), если известно разностное уравнение цепи",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+				"answer" : ["индивидуалочка",
+                            "Otvet=(yk1*x2)+(yk2*x1)+(yk3*((yk1*x1)+(yk2*x0)+(yk3*yk1*x0)))+(yk4*yk1*x0)",
+                            {
+                                "yk1" : 10,
+                                "yk2" : 13,
+                                "yk3" : 16,
+                                "yk4" : 19,
+                                "x0" : 29,
+                                "x1" : 31,
+                                "x2" : 33
+                            }]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line" : "По заданному Z-изображению запишите отсчеты дискретного сигнала.",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "drag&drop",
+                "array_xp" : "default",
+                "answer_xp" : "default",
+                "create_array" : true,
+				"answer" : ["0", "-1", "-2", "-3", "0", "4"]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Выберите сигнал, соответствующий определению",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "select",
+				"quantity_ans" : 5,
+				"answer" : [
+					{
+						"line" : "Непрерывная или кусочно-непрерывная функция времени - ",
+						"ans" : "аналоговый сигнал"
+					},
+					{
+						"line" : "Последовательность отсчетов функции, взятых в определенные моменты времени - ",
+						"ans" : "дискретный сигнал"
+					},
+                    {
+						"line" : "Квантованный по уровню дискретный сигнал - ",
+						"ans" : "цифровой сигнал"
+					}
+				]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Выберите спектр, соответствующий каждому из сигналов",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "select",
+				"quantity_ans" : 5,
+				"answer" : [
+					{
+						"line" : "Аналоговый периодический сигнал",
+						"ans" : "дискретный непериодический спектр"
+					},
+					{
+						"line" : "Дискретный периодический сигнал",
+						"ans" : "дискретный периодический спектр"
+					},
+                    {
+						"line" : "Аналоговый непериодический сигнал",
+						"ans" : "сплошной непериодический спектр"
+					},
+                    {
+						"line" : "Дискретный непериодический сигнал",
+						"ans" : "сплошной периодический спектр"
+					}
+				]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line" : "Определите, являются ли данные цепи устойчивыми.",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "drag&drop",
+                "array_xp" : "default",
+                "answer_xp" : "default",
+                "create_array" : true,
+				"answer" : ["да", "нет", "да", "да", "да", "нет", "да"]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "//form/div/div[1]/div[2]/div/div[1]/p",
+                    "first_line" : "Известны полюсы передаточных функций дискретных цепей. Определите полюсы, соответствующие устойчивой цепи.",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "checkbox",
+                "text_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div/div[",
+                "answer_chb_xp2" : "]/input[2]",
+				"answer" : [
+					"picts_test8\\ind8.png",
+					"picts_test8\\ind9.png",
+					"picts_test8\\ind10.png"
+				]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "При расчете схемы методом законов Кирхгофа число уравнений по первому закону Кирхгофа равно",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "radio checkbox",
+                "text_xp1" : "default",
+                "answer_xp1" : "default",
+				"answer" : "дискретизация сигнала"
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "//form/div/div[1]/div[2]/div/div[1]/div",
+                    "first_line" : "Дискретное преобразование Фурье используется для",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "radio checkbox",
+                "text_xp1" : "default",
+                "answer_xp1" : "default",
+				"answer" : "спектрального анализа"
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "//form/div/div[1]/div[2]/div/div[1]/p",
+                    "first_line" : "Процесс преобразования аналогового сигнала в последовательность отсчетов сигнала - это",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+                "format" : "radio checkbox",
+                "text_xp1" : "default",
+                "answer_xp1" : "default",
+                "answer" : "дискретизация сигнала"
+            },
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Определите выражение для спектра дискретного сигнала, если известно его Z-изображение",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "radio checkbox",
+                "text_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[1]/div[",
+                "text_xp2" : "]/div/div/p/img",
+                "answer_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[1]/div[",
+                "answer_xp2" : "]/input",
+				"answer" : "picts_test8\\ind6.png"
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line" : "Аналоговый сигнал с известным спектром   дискретизировали с частотой дискретизации fд = 8 кГц.",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "radio checkbox",
+                "text_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[1]/div[",
+                "text_xp2" : "]/div/div/p/img",
+                "answer_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[1]/div[",
+                "answer_xp2" : "]/input",
+				"answer" : "picts_test8\\ind2.png"
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Дискретный дельта-импульс является аналогом дельта-функции и представляет собой:",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "radio checkbox",
+                "text_xp1" : "default",
+                "answer_xp1" : "default",
+				"answer" : "одиночный отсчет с единичным значением"
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "first_line" : "Для заданной дискретной цепи определите отсчет импульсной характеристики для n=2.",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+                "format" : "radio checkbox",
+				"text_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[1]/div[",
+                "text_xp2" : "]/div/div/p",
+                "answer_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[1]/div[",
+                "answer_xp2" : "]/input",
+				"answer" : "0,3"
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "first_line" : "Определите передаточную функцию дискретной цепи",
+                    "second_xpath" : "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line" : "picts_test8\\2.png"
+                },
+				"format" : "radio checkbox",
+                "text_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[1]/div[",
+                "text_xp2" : "]/div/div/p/img",
+                "answer_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[1]/div[",
+                "answer_xp2" : "]/input",
+				"answer" : "picts_test8\\ind11.png"
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line" : "Выберите выражение, соответствующее разностному уравнению рекурсивной цепи",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "radio checkbox",
+                "text_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[1]/div[",
+                "text_xp2" : "]/div/div/p/img",
+                "answer_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[1]/div[",
+                "answer_xp2" : "]/input",
+				"answer" : "picts_test8\\ind13.png"
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "//form/div/div[1]/div[2]/div/div[1]",
+                    "first_line" : "Если в дискретной системе произвольная задержка подаваемого на вход сигнала приводит лишь к такой же задержке выходного сигнала, не меняя его формы, система называется",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "radio checkbox",
+                "text_xp1" : "default",
+                "answer_xp1" : "default",
+				"answer" : "стационарной"
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "//form/div/div[1]/div[2]/div/div[1]",
+                    "first_line" : "Дискретная цепь является устойчивой, если ее полюсы расположены:",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "radio checkbox",
+                "text_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[1]/div[",
+                "text_xp2" : "]/div/div",
+                "answer_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[1]/div[",
+                "answer_xp2" : "]/input",
+				"answer" : "Внутри окружности единичного радиуса"
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "default",
+                    "first_line" : "Выберите разностное уравнение, соответствующее передаточной функции цепи",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "select",
+                "text_sel_xp1" : "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+                "text_sel_xp2" : "]/td[1]/p/img",
+                "answer_sel_xp1" : "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+                "answer_sel_xp2" : "]/td[2]/select/option[",
+				"quantity_ans" : 7,
+				"answer" : [
+					{
+						"line" : "picts_test8\\ind3.png",
+						"ans" : "0,4x(n)+0,8x(n-2)+0,1y(n-1)"
+					},
+					{
+						"line" : "picts_test8\\ind4.png",
+						"ans" : "0,6x(n)-0,4y(n-2)"
+					}
+				]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line" : "Выберите утверждение, соответствующее рекурсивной цепи",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "checkbox",
+                "text_chb_xp1" : "default",
+                "answer_chb_xp1" : "default",
+				"answer" : ["Выражение H(z) является отношением полиномов",
+                            "Схема носит название БИХ-фильтра",
+                            "Импульсная характеристика h(n) имеет бесконечное число отсчетов"]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line" : "Выберите утверждение, соответствующее нерекурсивной цепи",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "checkbox",
+                "text_chb_xp1" : "default",
+                "answer_chb_xp1" : "default",
+				"answer" : ["Выражение H(z) является полиномом",
+                            "Импульсная характеристика h(n) имеет конечное число отсчетов",
+                            "Схема носит название КИХ-фильтра"]
+			},
+            {
+                "quest_text" : {
+                    "main_xpath" : "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line" : "Выберите элемент линейных дискретных цепей",
+                    "second_xpath" : "nothing",
+                    "second_line" : "nothing"
+                },
+				"format" : "checkbox",
+                "text_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div/div[",
+                "answer_chb_xp2" : "]/input[2]",
+				"answer" : [
+					"picts_test8\\ind16.png",
+					"picts_test8\\ind17.png",
+					"picts_test8\\ind18.png"
+				]
+			}
+		]
+	}
+}

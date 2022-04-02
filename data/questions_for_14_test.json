@@ -1,0 +1,697 @@
+{
+    "check_xpath_img": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+    "check_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[1]",
+    "array_xp": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div/span[",
+    "answer_xp": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/input[",
+    "link_xp": "/html/body/div[1]/div[2]/header/div/div/div/div[2]/div[1]/nav/ol/li[10]/a",
+    "type1": {
+        "main_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[2]",
+        "second_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[3]",
+        "text_xp1": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "text_xp2": "]/div/div/p",
+        "answer_xp1": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "answer_xp2": "]/input",
+        "text_chb_xp1": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "text_chb_xp2": "]/div/div",
+        "answer_chb_xp1": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "answer_chb_xp2": "]/input[2]",
+        "text_sel_xp1": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "text_sel_xp2": "]/td[1]",
+        "answer_sel_xp1": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "answer_sel_xp2": "]/td[2]/select/option[",
+        "questions": [
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "По заданному графику определить:\n1. нижнюю границу полосы пропускания  \nпусто\n, кГц\n2. верхнюю границу полосы пропускания   \nпусто\n, кГц\n3. порядок фильтра   \nпусто",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Дана передаточная функция  ARC-фильтра:\n \nОпределить значения  емкости С4, сопротивлений R2, R5, если С1= С3 = 5 нФ.\nС4 =  \nпусто\nнФ, R2 =  \nпусто\nкОм, R5 =  \nпусто\nкОм.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Дана передаточная функция  ARC-фильтра:\n \nОпределить значения емкостей С2, С5, если R1 = 5 кОм, R3 = 25 кОм, R4 = 5 кОм.\nС2 =  \nпусто\nнФ, С5 =  \nпусто\nнФ.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "По заданному графику определить:\n1. нижнюю границу полосы пропускания  \nпусто\n, кГц\n2. верхнюю границу полосы пропускания   \nпусто\n, кГц\n3. порядок фильтра   \nпусто",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "По заданному графику определить:\n1. нижнюю границу полосы пропускания  \nпусто\n, кГц\n2. верхнюю границу полосы пропускания   \nпусто\n, кГц\n3. порядок фильтра   \nпусто",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "По заданному графику определить:\n1. нижнюю границу полосы пропускания  \nпусто\n, кГц\n2. верхнюю границу полосы пропускания   \nпусто\n, кГц\n3. порядок фильтра   \nпусто",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "По заданному графику определить:\n1. нижнюю границу полосы пропускания  \nпусто\n, кГц\n2. верхнюю границу полосы пропускания   \nпусто\n, кГц\n3. порядок фильтра   \nпусто",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Дана передаточная функция  ARC-фильтра:\n \nОпределить значения сопротивлений R1, R2, R5, если С3 = 50 нФ, С4 = 25 нФ.\nR1 =  \nпусто\nкОм, R2 =  \nпусто\nкОм, R5 =  \nпусто\nкОм.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "По заданному графику определить:\n1. нижнюю границу полосы пропускания  \nпусто\n, кГц\n2. верхнюю границу полосы пропускания   \nпусто\n, кГц\n3. порядок фильтра   \nпусто",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    1
+                ]
+            }
+        ]
+    },
+    "type2": {
+        "main_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[1]",
+        "second_xpath": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[2]",
+        "text_xp1": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "text_xp2": "]/div/div/p",
+        "answer_xp1": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "answer_xp2": "]/input",
+        "text_chb_xp1": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "text_chb_xp2": "]/div/div",
+        "answer_chb_xp1": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "answer_chb_xp2": "]/input[2]",
+        "text_sel_xp1": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "text_sel_xp2": "]/td[1]",
+        "answer_sel_xp1": "/html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "answer_sel_xp2": "]/td[2]/select/option[",
+        "questions": [
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите вид схемы НЧ-прототипа для заданного фильтра.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "answer_xp1": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите величину коэффициента неравномерности ослабления в полосе пропускания для фильтра Чебышева, \nесли Amax = 2,7 дБ, Amin= 29 дБ.\nОтвет представить с точностью до сотых, десятичный разделитель - запятая.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "answer": [
+                    1
+                ],
+                "type_variable": "int"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Дана передаточная функция фильтра. \n\nОпределить:",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "select",
+                "answer_sel_xp1": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Укажите требования, предъявляемые к функции фильтрации",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "answer_xp1": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите порядок фильтра Баттерворта, \nесли Amax = 2,0 дБ, Amin= 29 дБ, Ω3= 1,6.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "answer": [
+                    1
+                ],
+                "type_variable": "int"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определить ослабление фильтра нижних частот на частоте, равной нулю, если порядок фильтра равен 5:\n1. Для фильтра Баттерворта А(0) =  \nпусто\n2. Для фильтра Чебышева    А(0) =  \nпусто",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите передаточную функцию ARC-фильтра нижних частот, по передаточной функции НЧ-прототипа\nесли границы полосы пропускания (0; 20) Крад/с, границы полосы непропускания (30; ∞) Крад/с",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "answer_xp1": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Расставить в правильном порядке этапы реализации LC- фильтра.\n1.  \nпусто\n2.  \nпусто\n3.  \nпусто\n4.  \nпусто\n5.  \nпусто",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите тип фильтра по его условному обозначению.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "select",
+                "answer_sel_xp1": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Укажите характеристики идеального ФНЧ",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "answer_xp1": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Известна схема с аппроксимацией Баттерворта.\n Определить\n1 Тип фильтра  \nпусто\n2 Порядок фильтра  \nпусто\n3. Н(0) =  \nпусто\n  4. Н(∞) =  \nпусто",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Известна схема с аппроксимацией Баттерворта.\n Определить\n1 Тип фильтра  \nпусто\n2 Порядок фильтра  \nпусто\n3. Н(0) =  \nпусто\n  4. Н(∞) =  \nпусто",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите вид схемы НЧ-прототипа для заданного фильтра.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "answer_xp1": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите передаточную функцию ARC-фильтра верхних частот, по передаточной функции НЧ-прототипа\nесли границы полосы пропускания (30; ∞) Крад/с, границы полосы непропускания (0; 20) Крад/с",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "answer_xp1": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Дайте определение режекторного фильтра.\nЧетырехполюсник, пропускающий с малым ослаблением  \nпусто\nспектральные составляющие сигнала в диапазоне  \nпусто\nи пропускающие с большим ослаблением  \nпусто\nспектральные составляющие сигнала в диапазоне  \nпусто\n.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определить ослабление фильтра верхних частот при частоте, стремящейся к бесконечности, если порядок фильтра равен 6:\n1. Для фильтра Баттерворта А(∞) =  \nпусто\n2. Для фильтра Чебышева    А(∞) =  \nпусто",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определить ослабление фильтра нижних частот на частоте, равной нулю, если порядок фильтра равен 6:\n1. Для фильтра Баттерворта А(0) =  \nпусто\n2. Для фильтра Чебышева    А(0) =  \nпусто",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите величину коэффициента неравномерности ослабления в полосе пропускания для фильтра Баттерворта, \nесли Amax = 1,2 дБ, Amin= 23 дБ.\nОтвет представить с точностью до сотых, десятичный разделитель - запятая.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "answer": [
+                    1
+                ],
+                "type_variable": "int"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определить ослабление фильтра верхних частот при частоте, стремящейся к бесконечности, если порядок фильтра равен 5:\n1. Для фильтра Баттерворта А(∞) =  \nпусто\n2. Для фильтра Чебышева    А(∞) =  \nпусто",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Электрический фильтр – устройство, которое практически не ослабляет спектральные составляющие сигнала (ослабление равно\n полосе непропускания\nполосе пропускания\nAmin\nАmax\n) в\n полосе непропускания\nполосе пропускания\nAmin\nАmax\nи значительно ослабляет (ослабление равно\n полосе непропускания\nполосе пропускания\nAmin\nАmax\n)  спектральные составляющие в\n полосе непропускания\nполосе пропускания\nAmin\nАmax\n.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "select",
+                "answer_sel_xp22": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите соответствующие определения",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "select",
+                "answer_sel_xp1": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите порядок фильтра Чебышева, \nесли Amax = 2,9 дБ, Amin= 18 дБ, Ω3= 2,1.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "answer": [
+                    1
+                ],
+                "type_variable": "int"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Каким образом определяются параметры функции фильтрации?",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "select",
+                "answer_sel_xp1": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите вид схемы НЧ-прототипа для заданного фильтра.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "answer_xp1": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Известна схема с аппроксимацией Баттерворта.\n Определить\n1 Тип фильтра  \nпусто\n2 Порядок фильтра  \nпусто\n3. Н(0) =  \nпусто\n  4. Н(∞) =  \nпусто",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Дайте определение фильтра нижних частот.\nЧетырехполюсник, пропускающий с малым ослаблением  \nпусто\nспектральные составляющие сигнала в диапазоне  \nпусто\nи пропускающие с большим ослаблением  \nпусто\nспектральные составляющие сигнала в диапазоне  \nпусто\n.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Известна схема с аппроксимацией Баттерворта.\n Определить\n1 Тип фильтра  \nпусто\n2 Порядок фильтра  \nпусто\n3. Н(0) =  \nпусто\n  4. Н(∞) =  \nпусто",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определить значение нормированной частоты Ω3 НЧ-прототипа:\n1. При проектировании фильтра с полосой пропускания (0; 20) кГц и полосой непропускания (30; ∞ ) кГц.\nΩ3 =  \nпусто\n\n2. При проектировании фильтра с полосой пропускания (50; ∞ ) кГц и полосой непропускания (0; 40 ) кГц.\nΩ3 =  \nпусто\n3. При проектировании фильтра, имеющего полосу пропускания (0; 20) кГц и (50; ∞ ) кГц и полосу непропускания (30; 40 ) кГц.\nΩ3 =  \nпусто\n4. При проектировании фильтра, имеющего полосу пропускания (50; 90) кГц и полосу непропускания (0; 40) кГц и (110; ∞ ) кГц.\nΩ3 =  \nпусто",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": " Полоса непропускания\nПолоса пропускания\nAmin\nAmax\n  – диапазон  частот, в котором ослабление фильтра мало и не превышает некоторого допустимого (заданного ) значения\n Полоса непропускания\nПолоса пропускания\nAmin\nAmax\n Полоса непропускания\nПолоса пропускания\nAmin\nAmax\n–  диапазон  частот, в котором ослабление фильтра велико и не меньше некоторого допустимого (заданного ) значения\n Полоса непропускания\nПолоса пропускания\nAmin\nAmax",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "select",
+                "answer_sel_xp22": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Дана передаточная функция фильтра. \n\nОпределить:",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "select",
+                "answer_sel_xp1": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Расставить в правильном порядке этапы реализации ARC- фильтра.\n1.  \nпусто\n2.  \nпусто\n3.  \nпусто\n4.  \nпусто\n5.  \nпусто",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Дана передаточная функция фильтра. \n\nОпределить:",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "select",
+                "answer_sel_xp1": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите передаточную функцию полосового ARC-фильтра, по передаточной функции НЧ-прототипа\n\nесли границы полосы пропускания (4; 12) Крад/с, границы полосы непропускания (0; 1.8) и (20; ∞) Крад/с",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "answer_xp1": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Как изменяется порядок фильтра при переходе от НЧ-прототипа к требуемому фильтру\nПри переходе от НЧ-прототипа к ФНЧ порядок  \nпусто\nПри переходе от НЧ-прототипа к ПФ порядок    \nпусто\n\nПри переходе от НЧ-прототипа к РФ порядок     \nпусто\n\nПри переходе от НЧ-прототипа к ФВЧ порядок   \nпусто",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": " Amin\nΔA\n- минимально допустимое ослабление в полосе непропускания;\n Amin\nΔA\n- максимально допустимое ослабление в полосе пропускания.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "select",
+                "answer_sel_xp22": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "При реализации ARC-фильтра типовыми звеньями",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "answer_xp1": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Дайте определение фильтра верхних частот.\nЧетырехполюсник, пропускающий с малым ослаблением  \nпусто\nспектральные составляющие сигнала в диапазоне  \nпусто\nи пропускающие с большим ослаблением  \nпусто\nспектральные составляющие сигнала в диапазоне  \nпусто\n.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите вид схемы НЧ-прототипа для заданного фильтра.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "answer_xp1": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Дана передаточная функция фильтра. \n\nОпределить:",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "select",
+                "answer_sel_xp1": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Какие требования предъявляют к передаточной функции фильтра?",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "answer_xp1": "default",
+                "answer": [
+                    1
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Дайте определение полосового фильтра.\nЧетырехполюсник, пропускающий с малым ослаблением  \nпусто\nспектральные составляющие сигнала в диапазоне  \nпусто\nи пропускающие с большим ослаблением  \nпусто\nспектральные составляющие сигнала в диапазоне  \nпусто\n.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    1
+                ]
+            }
+        ]
+    }
+}

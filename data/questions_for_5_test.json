@@ -1,0 +1,676 @@
+{
+    "check_xpath_img": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+    "check_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+    "array_xp": "//form/div/div[1]/div[2]/div/div[2]/div/span[",
+    "answer_xp": "//form/div/div[1]/div[2]/div/input[",
+    "string_xpath": "//form/div/div[1]/div[2]/div/div[1]",
+    "answer_inp_xp": "//form/div/div[1]/div[2]/div/div[2]/span/input",
+    "link_xp": "//form/div/div[1]/div[1]",
+    "type1": {
+        "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+        "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+        "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "text_xp2": "]/div/div/p",
+        "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "answer_xp2": "]/input",
+        "text_chb_xp1": "//form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "text_chb_xp2": "]/div/div",
+        "answer_chb_xp1": "//form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "answer_chb_xp2": "]/input[2]",
+        "text_sel_xp1": "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "text_sel_xp2": "]/td[1]",
+        "answer_sel_xp1": "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "answer_sel_xp2": "]/td[2]/select/option[",
+        "questions": [
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "first_line": "picts_test5\\18.png",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "second_line": "Определите независимое начальное условие. Ответ представить в СИ."
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "answer" : ["индивидуалочка",
+                            "Otvet=E/(R1+R2)",
+                            {
+                                "E" : 2,
+                                "R1" : 6,
+                                "R2" : 10
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "first_line": "Определите производную тока в А/с в индуктивности в момент коммутации",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "answer" : ["индивидуалочка",
+                            "Otvet=-((E/R1)*R2)/(L*0.001)",
+                            {
+                                "E" : 2,
+                                "R1" : 6,
+                                "R2" : 10,
+                                "L" : 14
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "first_line": "picts_test5\\17.png",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "second_line": "Определите корень характеристического уравнения в  с-1."
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "answer" : ["индивидуалочка",
+                            "Otvet=-R2/(L*0.001)",
+                            {
+                                "R2" : 10,
+                                "L" : 14
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "first_line": "Определите производную напряжения в В/с на емкости в момент коммутации",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "answer" : ["индивидуалочка",
+                            "Otvet=(E/R1)/(C*10**(-6))",
+                            {
+                                "E" : 2,
+                                "R1" : 6,
+                                "C" : 14
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "first_line": "picts_test5\\19.png",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "second_line": "Определите независимое начальное условие. Ответ представить в СИ."
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "answer" : ["индивидуалочка",
+                            "Otvet=E-((E*R1)/(R1+R2))",
+                            {
+                                "E" : 2,
+                                "R1" : 6,
+                                "R2" : 10
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "first_line": "picts_test5\\10.png",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "second_line": "Определите характеристическое уравнение цепи."
+                },
+                "format" : "checkbox",
+                "text_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_chb_xp2" : "]/input[2]",
+                "answer": [
+                    "picts_test5\\ind13.png",
+                    "picts_test5\\ind14.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[7]",
+                    "first_line": "Определите, какие законы изменения приведены на рисунках, если известно: Е = 6 В, R1 = 1 Ом, R2 = 1 Ом",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "этот график здесь лишний", "i1(t)",
+                    "i2(t)", "этот график здесь лишний",
+                    "i3(t)", "этот график здесь лишний",
+                    "этот график здесь лишний", "uL(t)"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "E = 10 В,   R1 = R2 = 2 кОм,   C = 25 нФ,   L = 25 мГн.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "0",  "2,5",  "2,5",
+                    "0",  "0",    "0",
+                    "0",  "2,5",  "2,5",
+                    "0",  "5",    "5",
+                    "0",  "5",    "5",
+                    "10", "10",   "5",
+                    "0",  "-5",   "0"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "first_line": "picts_test5\\11.png",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "second_line": "Определите характеристическое уравнение цепи."
+                },
+                "format" : "checkbox",
+                "text_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_chb_xp2" : "]/input[2]",
+                "answer": [
+                    "picts_test5\\ind15.png",
+                    "picts_test5\\ind16.png",
+                    "picts_test5\\ind17.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "first_line": "Определить длительность переходного процесса в мкс  (t=3τ).",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "answer" : ["индивидуалочка",
+                            "Otvet=(1/(1/((C*10**(-6))*((R1*R2)/(R1+R2)))))*3*(10**6)",
+                            {
+                                "R1" : 6,
+                                "R2" : 10,
+                                "C" : 14
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "first_line": "Определите принужденную составляющую iL(t) в мА.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "answer" : ["индивидуалочка",
+                            "Otvet=(E/(((R1*R2)/(R1+R2))+R3))*((R2*1000)/(R2+R1))",
+                            {
+                                "E" : 2,
+                                "R1" : 6,
+                                "R2" : 10,
+                                "R3" : 14
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]",
+                    "first_line": "Какой график зависимости соответствует закону изменения",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test5\\6.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test5\\ind10.png"
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "first_line": "picts_test5\\16.png",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "second_line": "Определите корень характеристического уравнения в  с-1."
+                },
+                "format" : "input",
+                "answer_inp_xp" : "default",
+                "type_variable" : "float",
+                "answer" : ["индивидуалочка",
+                            "Otvet=(R1+R2)/(-R1*R2*C*10**(-6))",
+                            {
+                                "R1" : 6,
+                                "R2" : 10,
+                                "C" : 14
+                            }]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "first_line": "Определите производную тока в А/с в емкости в момент коммутации.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "type_variable": "int",
+                "answer": "0"
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "E = 48 В,  R1 = 4 Ом,  R2 = 4 Ом,  R3 = 1 Ом,  L = 2 Гн. Записать закон изменения для токов в ветвях.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                 "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 2,
+                "answer": [
+                    "10","+","0,8","-","2,4",
+                    "2","+","4","-","2,4",
+                    "8","-","3,2","-","2,4"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "E = 25 В,   R = 50 Ом,   L = 5 мГн,   C = 8 мкФ.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "колебательный"
+            }
+        ]
+    },
+    "type2": {
+        "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+        "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+        "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "text_xp2": "]/div/div/p",
+        "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "answer_xp2": "]/input",
+        "text_chb_xp1": "//form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "text_chb_xp2": "]/div/div",
+        "answer_chb_xp1": "//form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "answer_chb_xp2": "]/input[2]",
+        "text_sel_xp1": "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "text_sel_xp2": "]/td[1]",
+        "answer_sel_xp1": "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "answer_sel_xp2": "]/td[2]/select/option[",
+        "questions": [
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line": "Определите изображение функции",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test5\\0.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test5\\ind1.png"   
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line": "По заданному закону изменения тока i(t) определить изображение I(p)",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test5\\ind4.png"
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line": "Выберите операторную схему замещения цепи",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test5\\3.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test5\\ind5.png"
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p",
+                    "first_line": "В RL-цепи при увеличении L в три раза длительность переходного процесса",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "увеличится в 3 раза"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line": "Определите выражение для определения корня характеристического уравнения",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 2,
+                "answer": [
+                    "R1+R2","C",
+                    "R1+R2R3/(R2+R3)","C",
+                    "R3+R1R2/(R1+R2)","L",
+                    "R2+R3","L"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line": "Определить закон изменения тока iL(t), если известно его изображение",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test5\\ind7.png"
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p",
+                    "first_line": "В RС-цепи при увеличении С в три раза длительность переходного процесса",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "увеличится в 3 раза"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p",
+                    "first_line": "Принужденный (установившийся) ток в цепи определяют:",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "После коммутации при времени стремящемся, к бесконечности"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line": "Записать закон изменения",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 2,
+                "answer": [
+                    "0","-","10","-","600","10","-","10","-","1500",
+                    "0","+","5","-","1200","10","-","5","-","500"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line": "По известному изображению определить оригинал функции",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test5\\7.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test5\\ind8.png"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line": "Определите изображение функции",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test5\\1.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test5\\ind2.png"
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p",
+                    "first_line": "Определить, какому виде переходного процесса соответствуют приведенные свободные составляющие",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "select",
+                "text_sel_xp1": "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+                "text_sel_xp2": "]/td[1]/p/img",
+                "answer_sel_xp1": "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+                "answer_sel_xp2": "]/td[2]/select/option[",
+                "quantity_ans": 6,
+                "answer": [
+                    {"line" : "picts_test5\\12.png",
+                     "ans": "1 порядка"
+                    },
+
+                    {"line" : "picts_test5\\13.png",
+                     "ans": "критический"
+                    },
+
+                    {"line" : "picts_test5\\14.png",
+                     "ans": "апериодический"
+                    },
+
+                    {"line" : "picts_test5\\15.png",
+                     "ans": "колебательный"
+                    }
+
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line": "Какой график зависимости соответствует закону изменения",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test5\\5.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test5\\ind9.png"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line": "Определите последовательность действия при определении корня характеристического уравнения.",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "4","2","1","5","3"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p",
+                    "first_line": "Укажите, какие величины являются независимыми начальными условиями",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "Ток в индуктивности и напряжение на емкости в  первый момент после коммутации"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p",
+                    "first_line": "Как используют законы коммутации при расчете переходных процессов?",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "Для определения начальных условий"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p",
+                    "first_line": "Начальные условия используют при расчете переходных процессов",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "Для определения постоянной интегрирования при решении дифференциального уравнения"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line": "По известному изображению определить оригинал функции",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test5\\8.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test5\\ind11.png"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line": "По известному изображению определить оригинал функции",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test5\\9.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test5\\ind12.png"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line": "Определите изображение функции",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test5\\2.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test5\\ind3.png" 
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p",
+                    "first_line": "В какой момент времени необходимо определять: ",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "select",
+                "quantity_ans" : 6,
+                "exact_parse" : true,
+                "answer" : [
+                    {
+                        "line" : "независимые начальные условия",
+                        "ans" : "t=0-"
+                    },
+                    {
+                        "line" : "зависимые начальные условия",
+                        "ans" : "t=0+"
+                    }
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p",
+                    "first_line": "При расчете переходного процесса в решении дифференциального уравнения свободная составляющая определяет",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "свободные процессы, происходящие в схеме при отсутствии внешнего воздействия"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p",
+                    "first_line": "Влияют ли независимые начальные условия на характер переходных процессов?",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "Не влияют"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line": "Выберите операторную схему замещения цепи",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test5\\4.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test5\\ind6.png"
+                
+            }
+        ]
+    }
+}

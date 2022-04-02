@@ -1,0 +1,583 @@
+{
+    "check_xpath_img": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+    "check_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+    "array_xp": "//form/div/div[1]/div[2]/div/div[2]/div/span[",
+    "answer_xp": "//form/div/div[1]/div[2]/div/input[",
+    "string_xpath" : "//form/div/div[1]/div[2]/div/div[1]",
+    "answer_inp_xp" : "//form/div/div[1]/div[2]/div/div[2]/span/input",
+    "link_xp" : "//form/div/div[1]/div[1]",
+    "type1": {
+        "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+        "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+        "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "text_xp2": "]/div/div/p",
+        "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "answer_xp2": "]/input",
+        "text_chb_xp1": "//form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "text_chb_xp2": "]/div/div",
+        "answer_chb_xp1": "//form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "answer_chb_xp2": "]/input[2]",
+        "text_sel_xp1": "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "text_sel_xp2": "]/td[1]",
+        "answer_sel_xp1": "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "answer_sel_xp2": "]/td[2]/select/option[",
+        "questions": [
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "first_line": "picts_test1\\4.png",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [ "4","6","2","1","3","2"  
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Определите напряжение Uab в В, если",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test1\\0.png"
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "type_variable": "int",
+                "answer": "70"
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Определите значение источника энергии Е1 в В, если",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "second_line": "I = 3 мА,   E2 = 12 В,  R1 = 7 кОм, R2 = 9 кОм."
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "type_variable": "int",
+                "answer": "60"
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "first_line": "Определите значение мощности каждого из источников, если",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "180","-36"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Определите ток в контуре в мА, если",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "second_line": "E1 = 28 В,   E2 = 12 В,  R1 = 14 кОм, R2 = 8 кОм, R3 = 18 кОм."
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "type_variable": "int",
+                "answer": "1"
+
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Определить ток в ветви с источником  в мА, если",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "second_line": "Е = 24 В, R1 = 2 кОм, R2 = 10 кОм, R3 = 5 кОм, R4 = 8 кОм, R5 = 2 кОм."
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "type_variable": "int",
+                "answer": "4"
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Определите ток в контуре в мА, если",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "second_line": "E1 = 28 В,   E2 = 12 В,  R1 = 1 кОм, R2 = 3 кОм."
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "type_variable": "int",
+                "answer": "4"
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Определить показания измерительных приборов",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "second_line": "Е = 12 В,  R1 = 3 кОм, R2 = 3 кОм, R3 = 9 кОм, R4 = 9 кОм."
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "2","9"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "first_line": "Определить напряжения на участках цепи, если",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[4]",
+                    "second_line": "Е = 10 В, R1 = 1 Ом"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "2","1","4","6"                
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Определить токи в ветвях схемы, если",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "second_line": "Е = 6 В, R1 = 1 кОм, R2 = 3 кОм."
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "8","6","2"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "first_line": "picts_test1\\2.png",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": ["3","5","1","1","3","2"
+                    
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Определите напряжение Uab в В, если",
+                    "second_xpath": "html/body/div[1]/div[2]/div/div[1]/section/div[1]/form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test1\\1.png"
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "type_variable": "int",
+                "answer": "-20"
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Определить ток в ветви с источником  в мА, если",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "second_line": "Е = 50 В, R1 = 3 кОм, R2 = 2 кОм, R3 = 10 кОм, R4 = 8 кОм, R5 = 2 кОм."
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "type_variable": "int",
+                "answer": "5"
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определить токи в ветвях схемы, если",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "second_line": "J = 20 мА,  R1= 10 кОм, R2 = 10 кОм,  R3 = 5 кОм."
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "5","5","10","20"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Определите значение источника энергии Е1 в В, если",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "second_line": "I = 8 мА,   E2 = 70 В,  R1 = 5 кОм, R2 = 7 кОм, R3 = 8 кОм."
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "type_variable": "int",
+                "answer": "90"
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "Определить мощность на резисторах, если",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "8","12","20"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "first_line": "Определить напряжения на участках цепи, если",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[4]",
+                    "second_line": "Е = 10 В, R1 = 2 Ом,  R2 = 3 Ом,  R3 =  5 Ом."
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "-10","3","5","-5"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите ток на участке цепи в мА, если",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test1\\0.png"
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "type_variable": "int",
+                "answer": "5"
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите ток на участке цепи в мА, если",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test1\\1.png"
+                },
+                "format": "input",
+                "answer_inp_xp": "default",
+                "type_variable": "int",
+                "answer": "-1"
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "first_line": "picts_test1\\3.png",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "4","6","2","2","3","1"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определить токи в ветвях схемы, если",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "second_line": "J = 5 мА, R1 = 8 кОм, R2 = 6 кОм, R3 = 4 кОм."
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "5","2","3"
+                ]
+            }
+        ]
+    },
+    "type2": {
+        "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+        "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+        "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "text_xp2": "]/div/div/p",
+        "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "answer_xp2": "]/input",
+        "text_chb_xp1": "//form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "text_chb_xp2": "]/div/div",
+        "answer_chb_xp1": "//form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "answer_chb_xp2": "]/input[2]",
+        "text_sel_xp1": "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "text_sel_xp2": "]/td[1]",
+        "answer_sel_xp1": "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "answer_sel_xp2": "]/td[2]/select/option[",
+        "questions": [
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Второй закон Кирхгофа гласит:",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "Алгебраическая сумма напряжений на элементах контура равна алгебраической сумме ЭДС в этом контуре"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Контур, содержащий хотя бы одну новую ветвь",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "независимый контур"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line": "Выберите правильные утверждения.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "second_line": "Амперметр - измерительный прибор, который"
+                },
+                "format": "checkbox",
+                "text_chb_xp1": "default",
+                "answer": [
+                    "включается последовательно в электрическую цепь",
+                    "имеет малое внутреннее сопротивление",
+                    "предназначен для определения тока в электрической цепи"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Графическое изображение электрической цепи, показывающее способ соединения элементов",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "электрическая схема"
+                    
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Место соединения трех или более элементов",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "узел"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line": "Определите параметры эквивалентного источника энергии, если известно:",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "1","100",
+                    "10","20",
+                    "50","10",
+                    "200","100"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите пассивные элементы",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "checkbox",
+                "text_chb_xp1": "default",
+                "answer": [
+                    "L","C","R"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p",
+                    "first_line": "Как соединены элементы?",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "select",
+                "quantity_ans": 4,
+                "answer": [
+                    {"line" : "Элементы находятся в одной ветви и через них протекает один тот же ток",
+                     "ans": "последовательное соединение"
+                    },
+
+                    {"line" : "Элементы подключены к одной и той же паре узлов и к ним приложено одинаковое напряжение",
+                     "ans": "параллельное соединение"
+                    }
+
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите активные элементы",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "checkbox",
+                "text_chb_xp1": "default",
+                "answer": [
+                    "E","J"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p",
+                    "first_line": "Для каждого источника энергии выберите соответствующее внутреннее сопротивление",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "select",
+                "quantity_ans": 5,
+                "answer": [
+                    {"line" : "Идеальный источник ЭДС",
+                     "ans": "внутреннее сопротивление равно нулю"
+                    },
+
+                    {"line" : "Реальный источник ЭДС",
+                     "ans": "внутреннее сопротивление мало"
+                    },
+
+                    {"line" : "Идеальный источник тока",
+                     "ans": "внутреннее сопротивление равно бесконечности"
+                    },
+
+                    {"line" : "Реальный источник тока",
+                     "ans": "внутреннее сопротивление велико"
+                    }
+
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Один или несколько последовательно соединенных элементов между двумя узлами",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "ветвь"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]",
+                    "first_line": "Замкнутый путь, проходящий через несколько ветвей",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "контур"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p",
+                    "first_line": "Выберите соответствующие определения",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "select",
+                "quantity_ans": 5,
+                "answer": [
+                    {"line" : "Участок цепи, содержащий источники энергии, называется",
+                     "ans": "активным"
+                    },
+
+                    {"line" : "Участок цепи, состоящий только из резисторов, называется",
+                     "ans": "пассивным"
+                    }
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line": "Определить показания измерительных приборов",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "second_line": "Е = 10 В,  R1 = 3 кОм, R2 = 8 кОм, R3 = 3 кОм, R4 = 8 кОм."
+                },
+                "format": "drag&drop",
+                "answer_xp": "default",
+                "answer": [
+                    "1","4"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p",
+                    "first_line": "Закон Ома для полной цепи гласит:",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "Ток прямо пропорционален ЭДС и обратно пропорционален полному сопротивлению цепи"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Закон Ома для участка цепи гласит:",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "Ток прямо пропорционален напряжению на участке цепи и обратно пропорционален сопротивлению этого участка"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": " Первый закон Кирхгофа гласит:",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": 
+                    "Алгебраическая сумма токов, сходящихся в любом узле электрической цепи, равна нулю"
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Какое сопротивление должен иметь",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "default",
+                "answer": "а) малое;    б) большое"
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line": "Выберите правильные утверждения.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "second_line": "Вольтметр - измерительный прибор, который "
+                },
+                "format": "checkbox",
+                "text_chb_xp1": "default",
+                "answer": [
+                    "подключается параллельно нагрузке или источнику энергии",
+                    "должен обладать бесконечно большим внутренним сопротивлением",
+                    "предназначен для определения напряжения в электрической цепи"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,1036 @@
+{
+    "check_xpath_img": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+    "check_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+    "array_xp": "//form/div/div[1]/div[2]/div/div[2]/div/span[",
+    "answer_xp": "//form/div/div[1]/div[2]/div/input[",
+    "string_xpath": "//form/div/div[1]/div[2]/div/div[1]",
+    "answer_inp_xp": "//form/div/div[1]/div[2]/div/div[2]/span/input",
+    "link_xp": "//form/div/div[1]/div[1]",
+    "type1": {
+        "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+        "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+        "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "text_xp2": "]/div/div/p",
+        "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "answer_xp2": "]/input",
+        "text_chb_xp1": "//form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "text_chb_xp2": "]/div/div",
+        "answer_chb_xp1": "//form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "answer_chb_xp2": "]/input[2]",
+        "text_sel_xp1": "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "text_sel_xp2": "]/td[1]",
+        "answer_sel_xp1": "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "answer_sel_xp2": "]/td[2]/select/option[",
+        "questions": [
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "По заданному выражению определить:",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test13\\0.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "4000","8000"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "По полюсно-нулевой диаграмме определите:",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test13\\6.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "(∞; 0)","→ ∞","= 0","5","2","2","нет"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "По заданному выражению определить:",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test13\\1.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "5000","7000"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "По полюсно-нулевой диаграмме определите:",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test13\\7.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "(0; 0)","= 0","= 0","4","2","1","есть"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "По заданному выражению определить величину сопротивления на частоте ω=2500 рад/с.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test13\\0.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "j 0.21"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "По заданному выражению определить величину сопротивления на частоте ω=2500 рад/с.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test13\\1.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "- j 351"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "По заданному выражению определить величину сопротивления на частоте ω=2500 рад/с.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test13\\2.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "- j 83"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "По полюсно-нулевой диаграмме определите:",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test13\\8.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "(0; ∞)","= 0","→ ∞","5","2","2","есть"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "По заданному выражению определить величину сопротивления на частоте ω=2500 рад/с.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test13\\3.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "j 0.65"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "По заданному выражению определить:",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test13\\2.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "9000","2000"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "По полюсно-нулевой диаграмме определите:",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test13\\9.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "(∞; ∞)","→ ∞","→ ∞","4","1","2","нет"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+                    "first_line": "По заданному выражению определить:",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]/img",
+                    "second_line": "picts_test13\\3.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "1000","4000"
+                ]
+            }
+        ]
+    },
+    "type2": {
+        "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+        "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]",
+        "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "text_xp2": "]/div/div/p",
+        "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+        "answer_xp2": "]/input",
+        "text_chb_xp1": "//form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "text_chb_xp2": "]/div/div",
+        "answer_chb_xp1": "//form/div/div[1]/div[2]/div/div[2]/div/div[",
+        "answer_chb_xp2": "]/input[2]",
+        "text_sel_xp1": "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "text_sel_xp2": "]/td[1]",
+        "answer_sel_xp1": "//form/div/div[1]/div[2]/div/div[2]/table/tbody/tr[",
+        "answer_sel_xp2": "]/td[2]/select/option[",
+        "questions": [
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите, есть ли путь постоянному току.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img[2]",
+                    "second_line": "picts_test13\\4.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "нет","есть",
+                    "есть","есть",
+                    "нет","есть",
+                    "нет","есть"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Для каждой из схем выберите формулу для определения множителя Н.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img[2]",
+                    "second_line": "picts_test13\\4.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "L1","1/C1+1/C2+1/C3",
+                    "1/(1/L1+1/L2+1/L3)","L1",
+                    "1/(1/L1+1/L2+1/L3)","L1",
+                    "1/C1+1/C2+1/C3","1/С1"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Для каждой из схем выберите формулу для определения множителя Н.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img[2]",
+                    "second_line": "picts_test13\\5.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "1/С1","1/(1/L1+1/L2+1/L3)",
+                    "1/(1/L1+1/L2+1/L3)","1/C1+1/C2+1/C3",
+                    "1/С1","L1",
+                    "1/(1/L1+1/L2+1/L3)","1/С1"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите схему, которую можно реализовать по заданной полюсно-нулевой диаграмме",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test13\\8.png"
+                },
+                "format" : "checkbox",
+                "text_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_chb_xp2" : "]/input[2]",
+                "answer" : [
+                    "picts_test13\\ind7.png",
+                    "picts_test13\\ind8.png",
+                    "picts_test13\\ind9.png",
+                    "picts_test13\\ind10.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Известно выражение для входного сопротивления двухполюсника:",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test13\\10.png",
+                    "missing": "есть ли в схеме путь постоянному току. ",
+                    "missing_xp": "//form/div/div[1]/div[2]/div/div[1]/p[3]"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "5","2","2"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "По заданному выражению для входного сопротивления двухполюсника выбрать возможные схемы его реализации",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test13\\11.png"
+                },
+                "format" : "checkbox",
+                "text_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_chb_xp2" : "]/input[2]",
+                "answer" : [
+                    "picts_test13\\ind1.png",
+                    "picts_test13\\ind2.png",
+                    "picts_test13\\ind3.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Известно выражение для входного сопротивления двухполюсника.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test13\\11.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "= 0","= 0"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Известно выражение для входного сопротивления двухполюсника.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test13\\12.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "→ ∞","= 0"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Известно выражение для входного сопротивления двухполюсника.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test13\\13.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "→ ∞","→ ∞"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line": "Известно выражение для входного сопротивления двухполюсника:",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test13\\10.png",
+                    "missing": "число элементов двухполюсника:",
+                    "missing_xp": "//form/div/div[1]/div[2]/div/div[1]/p[4]"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "есть"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "По заданному выражению для входного сопротивления двухполюсника выбрать возможные схемы реализации обратного двухполюсника",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test13\\11.png"
+                },
+                "format" : "checkbox",
+                "text_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_chb_xp2" : "]/input[2]",
+                "answer" : [
+                    "picts_test13\\ind4.png",
+                    "picts_test13\\ind5.png",
+                    "picts_test13\\ind6.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Известна полюсно-нулевая диаграмма двухполюсника.  Выберите схему, которую можно реализовать для двухполюсника, обратного данному.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test13\\8.png"
+                },
+                "format" : "checkbox",
+                "text_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_chb_xp2" : "]/div/div/p/img",
+                "answer_chb_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_chb_xp2" : "]/input[2]",
+                "answer" : [
+                    "picts_test13\\ind16.png",
+                    "picts_test13\\ind17.png"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите классы приведенных ниже двухполюсников.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img[2]",
+                    "second_line": "picts_test13\\5.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "(0;0)","(0;∞)",
+                    "(∞;∞)","(0;0)",
+                    "(∞;0)","(∞;∞)",
+                    "(0;∞)","(∞;0)"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите дуальный элемент для заданного:",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "select",
+                "quantity_ans" : 6,
+                "answer" : [
+                    {
+                        "line" : "Емкость",
+                        "ans" : "индуктивность"
+                    },
+                    {
+                        "line" : "Индуктивность",
+                        "ans" : "емкость"
+                    },
+                    {
+                        "line" : "Последовательное соединение",
+                        "ans" : "параллельное соединение"
+                    },
+                    {
+                        "line" : "Параллельное соединение",
+                        "ans" : "последовательное соединение"
+                    },
+                    {
+                        "line" : "Сопротивление",
+                        "ans" : "проводимость"
+                    }
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите полюсно-нулевую диаграмму, которую можно получить по данной формуле",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test13\\12.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test13\\ind11.png" 
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "first_line": "Определите, есть ли в схеме путь постоянному току.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test13\\11.png",
+                    "missing":"число элементов двухполюсника:",
+                    "missing_xp":"//form/div/div[1]/div[2]/div/div[1]/p[4]"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "есть"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "По полюсно-нулевой диаграмме двухполюсника выбрать выражение для входного сопротивления обратного двухполюсника",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test13\\6.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test13\\ind12.png" 
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите вид канонической схемы для каждого из двухполюсников",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img[2]",
+                    "second_line": "picts_test13\\5.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "первая форма Кауэра","вторая форма Фостера",
+                    "вторая форма Кауэра","первая форма Фостера",
+                    "первая форма Кауэра","первая форма Фостера",
+                    "вторая форма Кауэра","вторая форма Фостера"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите класс двухполюсника",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test13\\11.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "(0;0)"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[5]",
+                    "first_line": "Zвх(0) ",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[4]/img[2]",
+                    "second_line": "picts_test13\\4.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "→ ∞","→ ∞","= 0","= 0",
+                    "= 0","→ ∞","= 0","→ ∞",
+                    "→ ∞","→ ∞","= 0","→ ∞",
+                    "→ ∞","= 0","= 0","= 0"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[5]",
+                    "first_line": "Zвх(0) ",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[4]/img[2]",
+                    "second_line": "picts_test13\\5.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "= 0","= 0","= 0","→ ∞",
+                    "→ ∞","→ ∞","= 0","= 0",
+                    "→ ∞","= 0","→ ∞","→ ∞",
+                    "= 0","→ ∞","→ ∞","= 0"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите выражения, характеризующие резонанс токов в цепи",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "checkbox",
+                "text_chb_xp1": "default",
+                "answer": [
+                    "наблюдается в параллельном контуре",
+                    "явление, при котором ток и напряжение в контуре совпадают по фазе",
+                    "на частоте резонанса сопротивление идеального контура равно бесконечности"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите выражения, характеризующие резонанс напряжений в цепи",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "checkbox",
+                "text_chb_xp1": "default",
+                "answer": [
+                    "на частоте резонанса сопротивление идеального контура равно нулю",
+                    "явление, при котором ток и напряжение в контуре совпадают по фазе",
+                    "наблюдается в последовательном контуре"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите класс двухполюсника",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test13\\12.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "(∞;0)"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите класс двухполюсника",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test13\\13.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "(∞;∞)"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите вид канонической схемы для каждого из двухполюсников",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img[2]",
+                    "second_line": "picts_test13\\4.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "первая форма Кауэра","вторая форма Кауэра",
+                    "вторая форма Кауэра","первая форма Фостера",
+                    "вторая форма Фостера","первая форма Кауэра",
+                    "первая форма Фостера","вторая форма Фостера"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите классы приведенных ниже двухполюсников.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img[2]",
+                    "second_line": "picts_test13\\4.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "(∞;∞)","(0;0)",
+                    "(0;∞)","(0;∞)",
+                    "(∞;∞)","(0;∞)",
+                    "(∞;0)","(0;0)"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[5]",
+                    "first_line": "Nт= ",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[4]/img[2]",
+                    "second_line": "picts_test13\\4.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "2","3","3","2",
+                    "2","2","2","2",
+                    "2","3","2","2",
+                    "2","2","3","2"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[3]",
+                    "first_line": "Определите, есть ли в схеме путь постоянному току.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test13\\12.png",
+                    "missing": "число элементов двухполюсника:",
+                    "missing_xp": "//form/div/div[1]/div[2]/div/div[1]/p[4]"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "нет"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[5]",
+                    "first_line": "Nт= ",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[4]/img[2]",
+                    "second_line": "picts_test13\\5.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "3","2","2","2",
+                    "2","3","3","2",
+                    "2","2","2","3",
+                    "2","2","2","2"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите класс двухполюсника",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test13\\10.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "(0;∞)"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "По полюсно-нулевой диаграмме двухполюсника выбрать выражение для его входного сопротивления",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test13\\6.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test13\\ind13.png" 
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Известно выражение для входного сопротивления двухполюсника:",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test13\\12.png",
+                    "missing": "есть ли в схеме путь постоянному току. ",
+                    "missing_xp": "//form/div/div[1]/div[2]/div/div[1]/p[3]"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "5","2","2"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Дополните определения",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "select",
+                "quantity_ans" : 6,
+                "answer" : [
+                    {
+                        "line" : "Двухполюсники, имеющие одинаковые входные функции, называются",
+                        "ans" : "эквивалентными"
+                    },
+                    {
+                        "line" : "Двухполюсники, имеющие одинаковое число резонансов, при этом резонансу напряжений одного двухполюсника соответствует резонанс токов другого и наоборот, называются",
+                        "ans" : "обратными"
+                    }
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите по описанию соответствующую каноническую схему",
+                    "second_xpath": "nothing",
+                    "second_line": "nothing"
+                },
+                "format": "select",
+                "quantity_ans" : 5,
+                "answer" : [
+                    {
+                        "line" : "Лестничная схема, содержащая индуктивность в продольном плече и емкость в поперечном",
+                        "ans" : "первая форма Кауэра"
+                    },
+                    {
+                        "line" : "Лестничная схема, содержащая емкость в продольном плече и индуктивность в поперечном",
+                        "ans" : "вторая форма Кауэра"
+                    },
+                    {
+                        "line" : "Последовательное соединение параллельных резонансных контуров",
+                        "ans" : "первая форма Фостера"
+                    },
+                    {
+                        "line" : "Параллельное соединение последовательных контуров",
+                        "ans" : "вторая форма Фостера"
+                    }
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Определите, есть ли путь постоянному току.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img[2]",
+                    "second_line": "picts_test13\\5.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "есть","есть",
+                    "нет","есть",
+                    "нет","нет",
+                    "есть","нет"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Известно выражение для входного сопротивления двухполюсника.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test13\\10.png"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "= 0","→ ∞"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "По заданной схеме двухполюсника выберите формулу для входного сопротивления обратного двухполюсника",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test13\\14.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test13\\ind14.png" 
+                
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "По заданной схеме двухполюсника выберите формулу для его входного сопротивления.",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test13\\14.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test13\\ind18.png" 
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите полюсно-нулевую диаграмму, которую можно получить для двухполюсника, обратного данному",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test13\\12.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test13\\ind15.png"   
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите полюсно-нулевую диаграмму, которую можно получить по данной схеме",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test13\\15.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test13\\ind11.png" 
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Выберите полюсно-нулевую диаграмму, которую можно получить для двухполюсника, обратного данному",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test13\\15.png"
+                },
+                "format": "radio checkbox",
+                "text_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "text_xp2": "]/div/div/p/img",
+                "answer_xp1": "//form/div/div[1]/div[2]/div/div[2]/div[2]/div[",
+                "answer_xp2": "]/input",
+                "answer": "picts_test13\\ind15.png" 
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Известно выражение для входного сопротивления двухполюсника:",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test13\\13.png",
+                    "missing": "есть ли в схеме путь постоянному току. ",
+                    "missing_xp":"//form/div/div[1]/div[2]/div/div[1]/p[3]"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "6","2","3"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[1]",
+                    "first_line": "Известно выражение для входного сопротивления двухполюсника:",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test13\\13.png",
+                    "missing": "число элементов двухполюсника:  ",
+                    "missing_xp":"//form/div/div[1]/div[2]/div/div[1]/p[4]"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "description": "либо есть",
+                "answer": [
+                    "нет"
+                ]
+            },
+            {
+                "quest_text": {
+                    "main_xpath": "default",
+                    "first_line": "Известно выражение для входного сопротивления двухполюсника:",
+                    "second_xpath": "//form/div/div[1]/div[2]/div/div[1]/p[2]/img",
+                    "second_line": "picts_test13\\11.png",
+                    "missing": "есть ли в схеме путь постоянному току.",
+                    "missing_xp":"//form/div/div[1]/div[2]/div/div[1]/p[3]"
+                },
+                "format": "drag&drop",
+                "array_xp1" : "//form/div/div[1]/div[2]/div/div[2]/div[",
+                "array_xp2" : "]/span[",
+                "answer_xp" : "default",
+                "multiple_arrays" : 1,
+                "answer": [
+                    "6","3","2"
+                ]
+            }
+        ]
+    }
+}
