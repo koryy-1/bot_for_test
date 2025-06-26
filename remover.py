@@ -338,17 +338,18 @@ def solve_radio_chb(item, text_xp1, text_xp2, answer_xp1, answer_xp2):
 			ans_xpath = answer_xp1 + str(i+1) + answer_xp2
 			answer = browser.find_element(By.XPATH, ans_xpath)
 			browser.execute_script("arguments[0].removeAttribute('checked')", answer)
+			
 				
-			if (compare_pict(file, item['answer'])):
-				answer.click()
-				time.sleep(1)#########
-				os.remove(file)
-				return True
-			else:
-				time.sleep(1)#########
-				os.remove(file)
-			# 	browser.execute_script("arguments[0].removeAttribute('checked')", answer)
-
+			# if (compare_pict(file, item['answer'])):
+			# 	answer.click()
+			# 	time.sleep(1)#########
+			# 	os.remove(file)
+			# 	return True
+			# else:
+			# 	time.sleep(1)#########
+			# 	os.remove(file)
+			# # 	browser.execute_script("arguments[0].removeAttribute('checked')", answer)
+			os.remove(file)
 			i += 1
 	else:
 		while (xpath_exist(text_xp1 + str(i+1) + text_xp2)):
@@ -356,7 +357,8 @@ def solve_radio_chb(item, text_xp1, text_xp2, answer_xp1, answer_xp2):
 			if (browser.find_element(By.XPATH, text_xp1 + str(i+1) + text_xp2).text == item['answer']):
 				ans_xpath = answer_xp1 + str(i+1) + answer_xp2
 				input_el = browser.find_element(By.XPATH, ans_xpath)
-				input_el.click()
+				browser.execute_script("arguments[0].removeAttribute('checked')", input_el)
+				# input_el.click()
 				return True
 				# browser.execute_script("arguments[0].setAttribute('checked','checked')", answer)
 			i += 1
@@ -466,21 +468,21 @@ def solve_chb(item, text_chb_xp1, text_chb_xp2, answer_chb_xp1, answer_chb_xp2):
 			ans_xpath = answer_chb_xp1 + str(i+1) + answer_chb_xp2
 			answer = browser.find_element(By.XPATH, ans_xpath)
 			browser.execute_script("arguments[0].removeAttribute('checked')", answer)
-			for j in range(len(formuls)):
-				# print(str(totals[j]))
-				if (text_ans.find(' ' + str(formuls[j])) != -1
-					and
-					text_ans.find(totals[j]) != -1
-					):
-					# ans_xpath = answer_chb_xp1 + str(i+1) + answer_chb_xp2
-					# answer = browser.find_element(By.XPATH, ans_xpath)
-					# browser.execute_script("arguments[0].setAttribute('type','text')", answer)
-					# time.sleep(0.2)
-					# answer.clear()
-					# answer.send_keys('1')
-					answer.click()
-					totals[j] = "asdasdqwe"
-					break
+			# for j in range(len(formuls)):
+			# 	# print(str(totals[j]))
+			# 	if (text_ans.find(' ' + str(formuls[j])) != -1
+			# 		and
+			# 		text_ans.find(totals[j]) != -1
+			# 		):
+			# 		# ans_xpath = answer_chb_xp1 + str(i+1) + answer_chb_xp2
+			# 		# answer = browser.find_element(By.XPATH, ans_xpath)
+			# 		# browser.execute_script("arguments[0].setAttribute('type','text')", answer)
+			# 		# time.sleep(0.2)
+			# 		# answer.clear()
+			# 		# answer.send_keys('1')
+			# 		answer.click()
+			# 		totals[j] = "asdasdqwe"
+			# 		break
 			i += 1
 
 		print(item['answer'][0])
@@ -500,17 +502,17 @@ def solve_chb(item, text_chb_xp1, text_chb_xp2, answer_chb_xp1, answer_chb_xp2):
 			ans_xpath = answer_chb_xp1 + str(i+1) + answer_chb_xp2
 			answer = browser.find_element(By.XPATH, ans_xpath)
 			browser.execute_script("arguments[0].removeAttribute('checked')", answer)
-			for j in range(len(item['answer'])):
-				if (item['answer'][j].endswith('.png')) or (item['answer'][j].endswith('.gif')):
-					if (compare_pict(file, item['answer'][j])):
-						# ans_xpath = answer_chb_xp1 + str(i+1) + answer_chb_xp2
-						# answer = browser.find_element(By.XPATH, ans_xpath)
-						# browser.execute_script("arguments[0].setAttribute('type','text')", answer)
-						# time.sleep(0.2)
-						# answer.clear()
-						# answer.send_keys('1')
-						answer.click()
-						break
+			# for j in range(len(item['answer'])):
+			# 	if (item['answer'][j].endswith('.png')) or (item['answer'][j].endswith('.gif')):
+			# 		if (compare_pict(file, item['answer'][j])):
+			# 			# ans_xpath = answer_chb_xp1 + str(i+1) + answer_chb_xp2
+			# 			# answer = browser.find_element(By.XPATH, ans_xpath)
+			# 			# browser.execute_script("arguments[0].setAttribute('type','text')", answer)
+			# 			# time.sleep(0.2)
+			# 			# answer.clear()
+			# 			# answer.send_keys('1')
+			# 			answer.click()
+			# 			break
 					# else:
 					# 	browser.execute_script("arguments[0].removeAttribute('checked')", answer)
 
@@ -522,18 +524,18 @@ def solve_chb(item, text_chb_xp1, text_chb_xp2, answer_chb_xp1, answer_chb_xp2):
 			ans_xpath = answer_chb_xp1 + str(i+1) + answer_chb_xp2
 			input_el = browser.find_element(By.XPATH, ans_xpath)
 			browser.execute_script("arguments[0].removeAttribute('checked')", input_el)
-			for j in range(len(item['answer'])):
-				if not ((item['answer'][j].endswith('.png')) or (item['answer'][j].endswith('.gif'))):
-					if (browser.find_element(By.XPATH, text_xpath).text == item['answer'][j]):
+			# for j in range(len(item['answer'])):
+			# 	if not ((item['answer'][j].endswith('.png')) or (item['answer'][j].endswith('.gif'))):
+			# 		if (browser.find_element(By.XPATH, text_xpath).text == item['answer'][j]):
 						
-						# ans_xpath = answer_chb_xp1 + str(i+1) + answer_chb_xp2
-						# answer = browser.find_element(By.XPATH, ans_xpath)
-						# browser.execute_script("arguments[0].setAttribute('type','text')", answer)
-						# time.sleep(0.2)
-						# answer.clear()
-						# answer.send_keys('1')
-						input_el.click()
-						break
+			# 			# ans_xpath = answer_chb_xp1 + str(i+1) + answer_chb_xp2
+			# 			# answer = browser.find_element(By.XPATH, ans_xpath)
+			# 			# browser.execute_script("arguments[0].setAttribute('type','text')", answer)
+			# 			# time.sleep(0.2)
+			# 			# answer.clear()
+			# 			# answer.send_keys('1')
+			# 			input_el.click()
+			# 			break
 			
 		i += 1
 		
@@ -588,7 +590,8 @@ def solve_select(item, text_sel_xp1, text_sel_xp2, answer_sel_xp1, answer_sel_xp
 
 						if (browser.find_element(By.XPATH, ans_xpath).text == answer[j]['ans']):
 							select_el = browser.find_element(By.XPATH, ans_xpath)
-							browser.execute_script("arguments[0].setAttribute('selected','selected')", select_el)
+							# browser.execute_script("arguments[0].setAttribute('selected','selected')", select_el)
+							browser.execute_script("arguments[0].removeAttribute('selected')", select_el)
 							break
 				os.remove(file)
 
@@ -609,7 +612,8 @@ def solve_select(item, text_sel_xp1, text_sel_xp2, answer_sel_xp1, answer_sel_xp
 
 					if (browser.find_element(By.XPATH, ans_xpath).text == answer[j]['ans']):
 						select_el = browser.find_element(By.XPATH, ans_xpath)
-						browser.execute_script("arguments[0].setAttribute('selected','selected')", select_el)
+						# browser.execute_script("arguments[0].setAttribute('selected','selected')", select_el)
+						browser.execute_script("arguments[0].removeAttribute('selected')", select_el)
 						break
 
 	return True
@@ -747,8 +751,8 @@ def solve_drag_drop(item, array_xp, answer_xp):
 					# print('opened', k+1, 'input for clearing')
 					time.sleep(0.2)
 					input_el.clear()
-					input_el.send_keys(j+1)
-					print(img_urls[j])
+					# input_el.send_keys(j+1)
+					# print(img_urls[j])
 					i += 1
 					break
 				
@@ -766,27 +770,27 @@ def solve_drag_drop(item, array_xp, answer_xp):
 		# print('opened', k+1, 'input for clearing')
 		time.sleep(0.2)
 		input_el.clear()
-		if ('array2_xp' in item):
-			if item['answer'][k] in ans_row:
-				input_el.send_keys(ans_row.index(item['answer'][k])+1)
+		# if ('array2_xp' in item):
+		# 	if item['answer'][k] in ans_row:
+		# 		input_el.send_keys(ans_row.index(item['answer'][k])+1)
 
-			elif item['answer'][k] in ans_row1:
-				input_el.send_keys(ans_row1.index(item['answer'][k])+1)
+		# 	elif item['answer'][k] in ans_row1:
+		# 		input_el.send_keys(ans_row1.index(item['answer'][k])+1)
 
-			else:
-				print('elem in arrays not found')
-				exit_for_prod('elem in arrays not found')
+		# 	else:
+		# 		print('elem in arrays not found')
+		# 		exit_for_prod('elem in arrays not found')
 
-		elif ('multiple_arrays' in item):
-			num_ar = input_el.get_attribute("class")[-1]
-			# for j in range(len(main_ans_row)):
+		# elif ('multiple_arrays' in item):
+		# 	num_ar = input_el.get_attribute("class")[-1]
+		# 	# for j in range(len(main_ans_row)):
 
-			if item['answer'][k] in main_ans_row[f'{num_ar}']:
-				input_el.send_keys(main_ans_row[f'{num_ar}'].index(item['answer'][k])+1)
-				print(main_ans_row[f'{num_ar}'].index(item['answer'][k])+1)
-			else:
-				print(f"elementa {item['answer'][k]} net v nujnom massive")
-				exit_for_prod(f"elementa {item['answer'][k]} net v nujnom massive")
+		# 	if item['answer'][k] in main_ans_row[f'{num_ar}']:
+		# 		input_el.send_keys(main_ans_row[f'{num_ar}'].index(item['answer'][k])+1)
+		# 		print(main_ans_row[f'{num_ar}'].index(item['answer'][k])+1)
+		# 	else:
+		# 		print(f"elementa {item['answer'][k]} net v nujnom massive")
+		# 		exit_for_prod(f"elementa {item['answer'][k]} net v nujnom massive")
 		
 		# elif (item['answer'][0].endswith('.png')):
 			# if item['answer'][k] in img_urls:
@@ -807,8 +811,8 @@ def solve_drag_drop(item, array_xp, answer_xp):
 				
 			# 	os.remove(file)
 			
-		else:
-			input_el.send_keys(ans_row.index(item['answer'][k])+1)
+		# else:
+		# 	input_el.send_keys(ans_row.index(item['answer'][k])+1)
 
 	return True
 
@@ -985,13 +989,13 @@ def solve_input(item, answer_inp_xp, string_xpath):
 		print(answer)
 		answer_input = browser.find_element(By.XPATH, answer_inp_xp)
 		answer_input.clear()
-		answer_input.send_keys(answer)
+		# answer_input.send_keys(answer)
 
 	else:
 		print(item['answer'])
 		answer_input = browser.find_element(By.XPATH, answer_inp_xp)
 		answer_input.clear()
-		answer_input.send_keys(item['answer'])
+		# answer_input.send_keys(item['answer'])
 
 	return True
 
@@ -1194,7 +1198,7 @@ if mode == 2:
 			browser.switch_to.window(browser.window_handles[1])
 
 
-		with open('data\\questions_for_13_test.json', 'r', encoding='utf-8') as file:
+		with open('data\\questions_for_1_test.json', 'r', encoding='utf-8') as file:
 			data = json.load(file)
 
 		link_xp = data['link_xp']
@@ -1216,7 +1220,7 @@ if mode == 2:
 		if check_logout():
 			continue
 
-		for i in range(50):
+		for i in range(40):
 			time.sleep(1)
 			if check_logout():
 				break

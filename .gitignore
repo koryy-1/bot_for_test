@@ -1,9 +1,10 @@
 /.vs
-/__pycache__
-/data
-/picts
-/something
-accs.txt
+__pycache__
+/.mypy_cache
+/venv
+/assets/*
+!/assets/screenshots/
+todo.txt
+*.log
 geckodriver.exe
 geckodriver.log
-todo.txt

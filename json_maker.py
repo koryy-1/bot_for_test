@@ -136,12 +136,12 @@ browser.get('https://eios.sibsutis.ru/')
 time.sleep(0.5)
 
 login_xpath = '//*[@id="username"]'
-browser.find_element_by_xpath(login_xpath).send_keys('vitalik.romanenko.02@inbox.ru')
+browser.find_element_by_xpath(login_xpath).send_keys('agafono.a02@gmail.com')
 
 # time.sleep(2)
 
 password_xpath = '//*[@id="password"]'
-browser.find_element_by_id('password').send_keys('Tm2vitalya@')
+browser.find_element_by_id('password').send_keys('Wasd0202/')
 # time.sleep(2)
 
 xpath = '//*[@id="loginbtn"]'
@@ -154,7 +154,7 @@ print('bot logined by name: ' + text1)
 
 
 # browser.get(link_na_test)
-url_test = 'https://eios.sibsutis.ru/mod/quiz/attempt.php?attempt=279913&cmid=58383' # &page=1
+url_test = 'https://eios.sibsutis.ru/mod/quiz/attempt.php?attempt=343220&cmid=103447' # &page=1
 
 # nado = 'da'
 if nado == 'da':
@@ -198,7 +198,7 @@ question_xpaths = [
 ]
 # input, radio, chb, sel, drag&drop
 
-for i in range(40):
+for i in range(30):
 	time.sleep(1)
 	print(f'=================={i+1}==================')
 
